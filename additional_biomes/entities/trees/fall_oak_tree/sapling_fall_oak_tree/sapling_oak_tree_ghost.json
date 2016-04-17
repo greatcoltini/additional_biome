@@ -1,0 +1,29 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(stonehearth:entities.trees.oak_tree.sapling_oak_tree.sapling_oak_tree_ghost.display_name)",
+         "description": "i18n(stonehearth:entities.trees.oak_tree.sapling_oak_tree.sapling_oak_tree_ghost.description)",
+         "icon": "file(sapling_oak_tree.png)"
+      },
+      "render_info": {
+         "scale": 1
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sapling_oak_tree.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      }
+   }
+}

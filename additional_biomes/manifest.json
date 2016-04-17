@@ -4,6 +4,18 @@
       "version" : 2
    },
    "default_locale": "en",
+   "aliases" : {
+		"trees:fall_oak:small" : "file(entities/trees/fall_oak_tree/small_fall_oak_tree)",
+		"trees:fall_oak:medium" : "file(entities/trees/fall_oak_tree/medium_fall_oak_tree)",
+		"trees:fall_oak:large" : "file(entities/trees/fall_oak_tree/large_fall_oak_tree)",
+		"trees:fall_oak:ancient" : "file(entities/trees/fall_oak_tree/ancient_fall_oak_tree)",
+		"trees:fall_juniper:small" : "file(entities/trees/fall_juniper_tree/small_fall_juniper_tree)",
+		"trees:fall_juniper:medium" : "file(entities/trees/fall_juniper_tree/medium_fall_juniper_tree)",
+		"trees:fall_juniper:large" : "file(entities/trees/fall_juniper_tree/large_fall_juniper_tree)",
+		"trees:fall_juniper:ancient" : "file(entities/trees/fall_juniper_tree/ancient_fall_juniper_tree)",
+		
+		"plants:mountain_flower" : "file(entities/plants/mountain_flower)"
+   },
    "mixintos" :  {
       "stonehearth:biome:index": "file(data/biome/index.json)"
 	}

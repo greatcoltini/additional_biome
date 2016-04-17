@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(stonehearth:entities.plants.mountain_flower.display_name)",
+         "description": "i18n(stonehearth:entities.plants.mountain_flower.description)",
+         "icon": "file(mountain_flower_plant.png)"
+      },
+      "render_info": {
+         "scale": 0.2
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mountain_flower.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "mob_collision_type": "clutter"
+      }
+   }
+}

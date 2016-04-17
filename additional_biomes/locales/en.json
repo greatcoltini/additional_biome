@@ -22,5 +22,15 @@
 	    }
          } 
       }
+   },
+   "entities": {
+		"plants": {
+			"mountain_flower": {
+				"name": "Mountain Flower",
+				"description": "A flower that makes you reminisce about the cliffs surrounding you.",
+				"unripe_description": "Not quite ready for the picking."
+			}
+		}
+		
    }
 }

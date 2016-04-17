@@ -1,0 +1,61 @@
+{
+   "mixins": [
+      "stonehearth:mixins:tree",
+      "stonehearth:mixins:align_to_grid"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(small_fall_oak_tree.qb)",
+                     "file(small_fall_oak_tree_2.qb)",
+                     "file(small_fall_oak_tree_3.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.trees.fall_oak_tree.small_fall_oak_tree.display_name)",
+         "description": "i18n(additional_biomes:entities.trees.fall_oak_tree.small_fall_oak_tree.description)"
+      },
+      "stonehearth:resource_node": {
+         "resource": "stonehearth:resources:wood:oak_log",
+         "durability": 6
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region_from_model": {
+            "model": "file(small_fall_oak_tree.qb)",
+            "matrices": [
+               "trunk"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "additional_biomes:trees:fall_oak:medium",
+         "evolve_time": "3d"
+      }
+   }
+}

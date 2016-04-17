@@ -159,6 +159,42 @@
    },
    "landscape": {
       "placement_table" : {
+         "stonehearth:trees:juniper:small" : {
+            "placement_type" : "dense",
+            "parameters" : { "grid_multiple" : 2, "item_density" : 0.5, "exclusion_radius" : 2 },
+            "mountains" : {
+               "placement_type" : "single",
+               "parameters" : { "ground_radius" : 0, "exclusion_radius" : 3 }
+            }
+         },
+         "stonehearth:trees:juniper:medium" : {
+            "placement_type" : "single",
+            "parameters" : { "ground_radius" : 0, "exclusion_radius" : 4 }
+         },
+         "stonehearth:trees:juniper:large" : {
+            "placement_type" : "single",
+            "parameters" : { "ground_radius" : 1, "exclusion_radius" : 4 }
+         },
+         "stonehearth:trees:juniper:ancient" : {
+            "placement_type" : "single",
+            "parameters" : { "ground_radius" : 1, "exclusion_radius" : 5 }
+         },
+         "stonehearth:trees:pine:small" : {
+            "placement_type" : "dense",
+            "parameters" : { "grid_multiple" : 2, "item_density" : 0.5, "exclusion_radius" : 2 },
+            "mountains" : {
+               "placement_type" : "single",
+               "parameters" : { "ground_radius" : 0, "exclusion_radius" : 3 }
+            }
+         },
+         "stonehearth:trees:pine:medium" : {
+            "placement_type" : "single",
+            "parameters" : { "ground_radius" : 1, "exclusion_radius" : 4 }
+         },
+         "stonehearth:trees:pine:large" : {
+            "placement_type" : "single",
+            "parameters" : { "ground_radius" : 2, "exclusion_radius" : 5 }
+         },
 		 "additional_biomes:trees:fall_oak:small" : {
             "placement_type" : "dense",
             "parameters" : { "grid_multiple" : 2, "item_density" : 0.5, "exclusion_radius" : 2 },
@@ -179,31 +215,7 @@
             "placement_type" : "single",
             "parameters" : { "ground_radius" : 4, "exclusion_radius" : 8 }
          },
-		 "additional_biomes:trees:fall_juniper:small" : {
-            "placement_type" : "dense",
-            "parameters" : { "grid_multiple" : 2, "item_density" : 0.5, "exclusion_radius" : 2 },
-            "mountains" : {
-               "placement_type" : "single",
-               "parameters" : { "ground_radius" : 0, "exclusion_radius" : 3 }
-            }
-         },
-         "additional_biomes:trees:fall_juniper:medium" : {
-            "placement_type" : "single",
-            "parameters" : { "ground_radius" : 0, "exclusion_radius" : 4 }
-         },
-         "additional_biomes:trees:fall_juniper:large" : {
-            "placement_type" : "single",
-            "parameters" : { "ground_radius" : 1, "exclusion_radius" : 4 }
-         },
-         "additional_biomes:trees:fall_juniper:ancient" : {
-            "placement_type" : "single",
-            "parameters" : { "ground_radius" : 1, "exclusion_radius" : 5 }
-         },
          "stonehearth:plants:brightbell" : {
-            "placement_type" : "dense",
-            "parameters" : { "grid_multiple" : 4, "item_density" : 0.1, "exclusion_radius" : 1 }
-         },
-		 "additional_biomes:plants:mountain_flower" : {
             "placement_type" : "dense",
             "parameters" : { "grid_multiple" : 4, "item_density" : 0.1, "exclusion_radius" : 1 }
          },
@@ -247,38 +259,46 @@
       "trees": {
          "__comment": "tree size variance. anything above 0 will be considered as tree placement, and the size of the tree is determined within the sizes node declared above",
          "sizes": {
+            "stonehearth:trees:juniper": {
+               "small": 0,
+               "medium": 4,
+               "large": 20
+            },
+            "stonehearth:trees:pine": {
+               "small": 0,
+			   "medium": 4,
+               "large": 16
+            },
 			"additional_biomes:trees:fall_oak": {
 			   "small": 0,
                "medium": 8,
                "large": 18,
                "ancient": {
-                  "percentage": 100
-               }
-			},
-			"additional_biomes:trees:fall_juniper": {
-               "small": 0,
-               "medium": 4,
-               "large": 15,
-               "ancient": {
                   "percentage": 10
                }
-            }
+			}
          },
          "weights": {
             "plains": {
                "1": {
-				  "additional_biomes:trees:fall_oak": 1
+                  "stonehearth:trees:juniper": 1,
+                  "stonehearth:trees:pine": 1
                }
             },
              "foothills": {
                 "1": {
-                  "additional_biomes:trees:fall_oak": 1,
-				  "additional_biomes:trees:fall_juniper": 1
+                  "stonehearth:trees:juniper": 1,
+                  "stonehearth:trees:pine": 1
+               },
+                "2": {
+                  "stonehearth:trees:juniper": 1,
+                  "stonehearth:trees:pine": 4
                }
             },
             "mountains": {
                "1": {
-				  "additional_biomes:trees:fall_juniper": 1
+                  "stonehearth:trees:pine": 1,
+				  "additional_biomes:trees:fall_oak": 3
                }
             }
          },
@@ -358,16 +378,14 @@
                "plains": {
                   "1": {
                      "stonehearth:plants:brightbell": 1,
-                     "stonehearth:plants:silkweed": 1,
-					 "additional_biomes:plants:mountain_flower": 1
+                     "stonehearth:plants:silkweed": 1
                   }
                },
                "foothills": {
                   "1": {
                      "stonehearth:plants:frostsnap": 2,
                      "stonehearth:plants:brightbell": 7,
-                     "stonehearth:plants:silkweed": 1,
-					 "additional_biomes:plants:mountain_flower": 1
+                     "stonehearth:plants:silkweed": 1
                   },
                   "2": {
                      "stonehearth:plants:frostsnap": 1,
@@ -378,8 +396,7 @@
                   "1": {
                      "stonehearth:plants:frostsnap": 2,
 					"stonehearth:plants:brightbell": 1,
-                     "stonehearth:plants:silkweed": 1,
-					 "additional_biomes:plants:mountain_flower": 1
+                     "stonehearth:plants:silkweed": 1
                   }
                }
             },
