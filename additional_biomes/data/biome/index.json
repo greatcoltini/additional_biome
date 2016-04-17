@@ -1,0 +1,6 @@
+{
+	"biomes" : {
+		"winter": "file(winter.json)",
+		"mountain": "file(mountain.json)"
+	}
+}

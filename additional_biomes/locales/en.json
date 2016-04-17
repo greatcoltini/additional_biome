@@ -1,0 +1,26 @@
+{
+   "data": {
+      "biome": {
+         "winter": {
+            "display_name": "Frosthearth",
+            "description": "More snow and cold than one would appreciate.",
+            "random_location_names": {
+               "000": "Malaio Archipelago",
+               "001": "Mauna Loa Archipelago",
+               "002": "Kilak Archipelago",
+               "003": "Mergui Archipelago"
+		}
+            },
+	  "mountain": {
+	    "display_name": "Mountains",
+	    "description": "A range of mountains, with rivers leading through them.",
+	    "random_location_names": {
+		"000": "Boulder Bananza",
+		"001": "The Hills",
+		"002": "Rocky Ridge",
+		"003": "Klipyak Mountains"
+	    }
+         } 
+      }
+   }
+}

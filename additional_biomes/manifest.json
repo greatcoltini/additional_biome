@@ -1,0 +1,10 @@
+{
+   "info" : {
+      "name" : "additional_biomes",
+      "version" : 2
+   },
+   "default_locale": "en",
+   "mixintos" :  {
+      "stonehearth:biome:index": "file(data/biome/index.json)"
+	}
+}
