@@ -15,8 +15,12 @@
 		"trees:fall_juniper:ancient" : "file(entities/trees/fall_juniper_tree/ancient_fall_juniper_tree)",
 		
 		"plants:mountain_flower" : "file(entities/plants/mountain_flower)",
+		"plants:fall_berry_bush" : "file(entities/plants/fall_berry_bush)",
 		
-		"resources:herb:mountain_flower" : "file(entities/resources/herb/mountain_flower)"
+		"resources:herb:mountain_flower" : "file(entities/resources/herb/mountain_flower)",
+		
+		"food:berries:fall_berry_serving" : "file(entities/food/berries/fall_berry_serving)",
+		"food:berries:fall_berry_basket" : "file(entities/food/berries/fall_berry_basket)"
    },
    "mixintos" :  {
       "stonehearth:biome:index": "file(data/biome/index.json)"

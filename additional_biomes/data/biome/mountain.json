@@ -207,7 +207,7 @@
             "placement_type" : "dense",
             "parameters" : { "grid_multiple" : 4, "item_density" : 0.1, "exclusion_radius" : 1 }
          },
-         "stonehearth:plants:berry_bush" : {
+		 "additional_biomes:plants:fall_berry_bush" : {
             "placement_type" : "pattern",
             "parameters" : { "min_rows" : 2, "max_rows" : 2, "min_cols" : 2, "max_cols" : 3, "item_spacing" : 5, "item_density" : 0.9 }
          },
@@ -349,14 +349,13 @@
             "weights": {
                "plains": {
                   "1": {
-                     "stonehearth:plants:silkweed": 1,
-					 "additional_biomes:plants:mountain_flower": 1
+                     "stonehearth:plants:silkweed": 1
                   }
                },
                "foothills": {
                   "1": {
                      "stonehearth:plants:silkweed": 1,
-					 "additional_biomes:plants:mountain_flower": 1
+					 "additional_biomes:plants:fall_berry_bush": 2
                   },
                   "2": {
 					 "additional_biomes:plants:mountain_flower": 1
