@@ -1,0 +1,88 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(../../plants/mountain_flower/mountain_flower.qb)"
+            ]
+         },
+         "mountain_flower_1": {
+            "models": [
+               "file(mountain_flower_1.qb)"
+            ]
+         },
+         "mountain_flower_2": {
+            "models": [
+               "file(mountain_flower_2.qb)"
+            ]
+         },
+         "mountain_flower_3": {
+            "models": [
+               "file(mountain_flower_3.qb)"
+            ]
+         },
+         "mountain_flower_4": {
+            "models": [
+               "file(mountain_flower_4.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.13
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.crops.mountain_flower_crop.display_name)",
+         "description": "i18n(additional_biomes:entities.crops.mountain_flower_crop.description)",
+         "icon": "file(../../plants/mountain_flower/mountain_flower.png)"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "mountain_flower_4": "additional_biomes:resources:herb:mountain_flower"
+         },
+         "harvest_threshhold": "mountain_flower_4",
+         "plant_overlay_effect": "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      },
+      "stonehearth:growing": {
+         "growth_period": "15h",
+         "growth_stages": [
+            {
+               "model_name": "mountain_flower_1",
+               "name": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.000.name)",
+               "description": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "mountain_flower_2",
+               "name": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.001.name)",
+               "description": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "mountain_flower_3",
+               "name": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.002.name)",
+               "description": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "mountain_flower_4",
+               "name": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.003.name)",
+               "description": "i18n(additional_biomes:entities.crops.mountain_flower_crop.growth_stage.003.description)"
+            }
+         ]
+      },
+      "additional_biomes:material": {
+         "tags": "mountain_flower crop"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0.2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      }
+   }
+}

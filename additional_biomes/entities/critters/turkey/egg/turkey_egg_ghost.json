@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.critters.turkey.turkey_egg.display_name)",
+         "description": "i18n(additional_biomes:entities.critters.turkey.turkey_egg.description)"
+      },
+      "stonehearth:material": {
+         "tags": "fertilized_egg turkey_egg"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(turkey_egg.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

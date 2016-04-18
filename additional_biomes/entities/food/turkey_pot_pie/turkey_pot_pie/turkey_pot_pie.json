@@ -3,37 +3,37 @@
    "type": "entity",
    "components": {
       "item": {
-         "stacks": 6,
-         "max_stacks": 6,
+         "stacks": 4,
+         "max_stacks": 4,
          "category": "food"
       },
       "model_variants": {
          "default": {
             "models": [
-               "file(roast_turkey.qb)"
+               "file(turkey_pot_pie.qb)"
             ]
          }
       },
       "unit_info": {
-         "display_name": "i18n(additional_biomes:entities.food.roast_turkey.roast_turkey.display_name)",
-         "description": "i18n(additional_biomes:entities.food.roast_turkey.roast_turkey.description)",
-         "icon": "file(roast_turkey.png)"
+         "display_name": "i18n(additional_biomes:entities.food.turkey_pot_pie.turkey_pot_pie.display_name)",
+         "description": "i18n(additional_biomes:entities.food.turkey_pot_pie.turkey_pot_pie.description)",
+         "icon": "file(turkey_pot_pie.png)"
       },
       "stonehearth:material": {
-         "tags": "food_container prepared_food roast_turkey"
+         "tags": "food_container prepared_food turkey_pot_pie"
       },
       "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 }
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       }
    },
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "additional_biomes:food:roast_turkey:roast_turkey_serving",
+         "food": "additional_biomes:food:turkey_pot_pie:turkey_pot_pie_serving",
          "stacks_per_serving": 1
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 14,
+         "value_in_gold": 29,
          "rarity": "common",
          "shop_info": {
             "buyable": false,
