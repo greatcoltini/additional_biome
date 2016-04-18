@@ -14,7 +14,9 @@
 		"trees:fall_juniper:large" : "file(entities/trees/fall_juniper_tree/large_fall_juniper_tree)",
 		"trees:fall_juniper:ancient" : "file(entities/trees/fall_juniper_tree/ancient_fall_juniper_tree)",
 		
-		"plants:mountain_flower" : "file(entities/plants/mountain_flower)"
+		"plants:mountain_flower" : "file(entities/plants/mountain_flower)",
+		
+		"resources:herb:mountain_flower" : "file(entities/resources/herb/mountain_flower)"
    },
    "mixintos" :  {
       "stonehearth:biome:index": "file(data/biome/index.json)"

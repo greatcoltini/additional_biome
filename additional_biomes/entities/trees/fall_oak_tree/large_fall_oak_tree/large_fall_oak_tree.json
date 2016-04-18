@@ -17,8 +17,8 @@
          }
       },
       "unit_info": {
-         "display_name": "i18n(stonehearth:entities.trees.fall_oak_tree.large_fall_oak_tree.display_name)",
-         "description": "i18n(stonehearth:entities.trees.fall_oak_tree.large_fall_oak_tree.description)"
+         "display_name": "i18n(additional_biomes:entities.trees.fall_oak_tree.large_fall_oak_tree.display_name)",
+         "description": "i18n(additional_biomes:entities.trees.fall_oak_tree.large_fall_oak_tree.description)"
       },
       "stonehearth:resource_node": {
          "resource": "stonehearth:resources:wood:oak_log",

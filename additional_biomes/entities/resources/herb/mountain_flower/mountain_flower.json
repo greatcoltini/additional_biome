@@ -1,0 +1,38 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "item": {
+         "category": "resources",
+         "stacks": 6,
+         "max_stacks": 6
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.resources.herb.mountain_flower.display_name)",
+         "description": "i18n(additional_biomes:entities.resources.herb.mountain_flower.description)",
+         "icon": "file(mountain_flower.png)"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mountain_flower.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "plant herb resource"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

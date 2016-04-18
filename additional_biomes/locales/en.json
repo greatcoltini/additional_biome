@@ -27,10 +27,57 @@
 		"plants": {
 			"mountain_flower": {
 				"name": "Mountain Flower",
+				"display_name": "Mountain Flower",
 				"description": "A flower that makes you reminisce about the cliffs surrounding you.",
 				"unripe_description": "Not quite ready for the picking."
 			}
-		}
+		},
+		"resources": {
+			"herb": {
+				"mountain_flower": {
+					"display_name": "Mountain Flower",
+					"description": "A flower gathered from a mountainous region."
+				}
+			}
+		},
+		"trees": {
+			"fall_juniper_tree": {
+				"small_fall_juniper_tree": {
+					"display_name": "Small Fall Juniper Tree",
+					"description": "A young juniper tree with fall leaves."
+					},
+				"medium_fall_juniper_tree": {
+					"display_name": "Medium Fall Juniper Tree",
+					"description": "A middle-aged colourful juniper tree."
+					},
+				"large_fall_juniper_tree": {
+					"display_name": "Large Fall Juniper Tree",
+					"description": "A fully-grown fall juniper tree."
+					},
+				"ancient_fall_juniper_tree": {
+					"display_name": "Ancient Fall Juniper Tree",
+					"description": "A colourful juniper tree past it's peak."
+					}
+				},
+			"fall_oak_tree": {
+				"small_fall_oak_tree": {
+					"display_name": "Small Fall Oak Tree",
+					"description": "A young oak tree with colourful leaves."
+					},
+				"medium_fall_oak_tree": {
+					"display_name": "Medium Fall Oak Tree",
+					"description": "An adult colourful oak tree."
+					},
+				"large_fall_oak_tree": {
+					"display_name": "Large Fall Oak Tree",
+					"description": "A fully-grown fall oak tree."
+					},
+				"ancient_fall_oak_tree": {
+					"display_name": "Ancient Fall Oak Tree",
+					"description": "A fall-coloured oak tree past it's prime."
+					}
+				}
+			}
 		
    }
 }

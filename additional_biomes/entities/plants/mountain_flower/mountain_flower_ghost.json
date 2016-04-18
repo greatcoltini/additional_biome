@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "display_name": "i18n(stonehearth:entities.plants.mountain_flower.display_name)",
-         "description": "i18n(stonehearth:entities.plants.mountain_flower.description)",
+         "display_name": "i18n(additional_biomes:entities.plants.mountain_flower.display_name)",
+         "description": "i18n(additional_biomes:entities.plants.mountain_flower.description)",
          "icon": "file(mountain_flower_plant.png)"
       },
       "render_info": {

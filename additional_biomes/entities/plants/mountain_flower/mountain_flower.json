@@ -16,8 +16,8 @@
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
          "harvest_overlay_effect": "/stonehearth/data/effects/harvest_plant_overlay_effect",
-         "unripe_description": "i18n(stonehearth:entities.plants.mountain_flower_plant.unripe_description)",
-         "resource": "stonehearth:resources:herb:mountain_flower",
+         "unripe_description": "i18n(additional_biomes:entities.plants.mountain_flower_plant.unripe_description)",
+         "resource": "additional_biomes:resources:herb:mountain_flower",
          "renewal_time": "22h"
       },
       "stonehearth:entity_forms": {
