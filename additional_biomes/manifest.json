@@ -17,12 +17,39 @@
 		"plants:mountain_flower" : "file(entities/plants/mountain_flower)",
 		"plants:fall_berry_bush" : "file(entities/plants/fall_berry_bush)",
 		
+		"crops:mountain_flower_crop" : "file(entities/crops/mountain_flower_crop)",
+		"mountain_flower:crop" : "file(entities/crops/mountain_flower_crop)",
+		
 		"resources:herb:mountain_flower" : "file(entities/resources/herb/mountain_flower)",
 		
 		"food:berries:fall_berry_serving" : "file(entities/food/berries/fall_berry_serving)",
-		"food:berries:fall_berry_basket" : "file(entities/food/berries/fall_berry_basket)"
+		"food:berries:fall_berry_basket" : "file(entities/food/berries/fall_berry_basket)",
+		"food:turkey_pot_pie" : "file(entities/food/turkey_pot_pie/turkey_pot_pie)",
+		"food:turkey_pot_pie_serving" : "file(entities/food/turkey_pot_pie/turkey_pot_pie_serving)",
+		"food:turkey_meat" : "file(entities/food/turkey_meat)",
+		"food:turkey_feed" : "file(entities/food/turkey_feed/turkey_feed)",
+		"food:turkey_feed_ground" : "file(entities/food/turkey_feed/turkey_feed_ground)",
+		"food:roast_turkey" : "file(entities/food/roast_turkey/roast_turkey)",
+		"food:roast_turkey:roast_turkey_serving": "file(entities/food/roast_turkey/roast_turkey_serving)",
+		
+		"window_box_mountain_flower_recipe" : "file(entities/decoration/window_box_mountain_flower/window_box_mountain_flower.json)",
+		
+		"decoration:window_box:mountain_flower" : "file(entities/decoration/window_box_mountain_flower)",
+		"decoration:cornucopia" : "file(entities/decoration/cornucopia)",
+		
+		"turkey": "file(entities/critters/turkey)",
+		"turkey:egg": "file(entities/critters/turkey/egg)",
+		"turkey:young": "file(entities/critters/turkey/young)"
    },
    "mixintos" :  {
-      "stonehearth:biome:index": "file(data/biome/index.json)"
+      "stonehearth:biome:index": "file(data/biome/index.json)",
+	  
+	  "/stonehearth/jobs/carpenter/recipes/recipes.json" : "file(mixins/carpenter_recipes.json)",
+	  
+	  "stonehearth/jobs/cook/recipes/recipes.json" : "file(mixins/cook_recipes.json)",
+	  
+	  "/stonehearth/services/server/farming/data/initial_crops.json" : "file(mixins/crops.json)",
+	  
+	  "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json" : "file(mixins/shepherd_pasture.json)"
 	}
 }

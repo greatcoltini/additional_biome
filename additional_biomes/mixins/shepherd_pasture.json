@@ -1,0 +1,19 @@
+{
+	"components": {
+		"stonehearth:shepherd_pasture": {
+			"pasture_data": {
+				"additional_biomes:turkey": {
+				   "name": "i18n(additional_biomes:ui.game.zones_mode.pasture.turkey_pasture_name)",
+				   "description": "i18n(additional_biomes:ui.game.zones_mode.pasture.turkey_pasture_description)",
+				   "icon": "/additional_biomes/entities/critters/turkey/turkey.png",
+				   "reproduction_uri": "additional_biomes:turkey:egg",
+				   "min_population": 2,
+				   "max_num_per_10_square_unit": 1,
+				   "base_reproduction_period": "24h",
+				   "min_reproduction_period": "10h",
+				   "feed_uri": "additional_biomes:food:turkey_feed"
+				}
+			}
+		}
+	}
+}

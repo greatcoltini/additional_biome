@@ -1,0 +1,10 @@
+{
+	"crops_by_kingdom" : {
+		"stonehearth:kingdoms:ascendancy" : [
+		{
+            "crop_type" : "additional_biomes:crops:mountain_flower_crop",
+            "quantity" : 5
+         }
+		 ]
+	}
+}

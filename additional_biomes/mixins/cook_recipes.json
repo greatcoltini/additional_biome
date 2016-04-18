@@ -1,0 +1,28 @@
+{
+	"craftable_recipes" : {
+		"food": {
+			"recipes": {
+				"turkey_pot_pie": {
+					"recipe": "file(/recipes/turkey_pot_pie_recipe.json)"
+				},
+				"roast_turkey": {
+					"recipe": "file(/recipes/roast_turkey_recipe.json)"
+				}
+			}
+		},
+		"animal_feed": {
+			"recipes": {
+				"turkey_feed": {
+					"recipe": "file(/recipes/turkey_feed_recipe.json)"
+				}
+			}
+		},
+		"decoration" : {
+			"recipes" : {
+				"cornucopia_recipe" : {
+					"recipe" : "file(/recipes/cornucopia_recipe.json)"
+				}
+			}
+		}
+	}
+}
