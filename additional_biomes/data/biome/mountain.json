@@ -9,10 +9,10 @@
       "i18n(additional_biomes:data.biome.mountain.random_location_names.003)"
    ],
    "image": "file(images/mountain_400x300.png)",
-   "story_board_image": "file(images/mountain_story_board.png)",
+   "story_board_image": "file(images/mountain_storyboard.png)",
    "game_mode_images": {
-      "stonehearth:game_mode:normal": "file(images/mountain_story_normal.png)",
-      "stonehearth:game_mode:hard": "file(images/mountain_story_hard.png)"
+      "stonehearth:game_mode:normal": "file(images/mountain_storyboard_normal.png)",
+      "stonehearth:game_mode:hard": "file(images/mountain_storyboard_hard.png)"
    },
    "mining_loot_table": "file(mountain_mining_loot_table.json)",
    "__comment": "parameters for generating forest, flora, and water",
@@ -65,9 +65,9 @@
          "grass": "#d95105",
          "grass_edge_1": "#a23900",
          "grass_edge_2": "#a23900",
-         "grass_hills": "#a47f00",
-         "grass_hills_edge_1": "#836708",
-         "grass_hills_edge_2": "#836708",
+         "grass_hills": "#d5a000",
+         "grass_hills_edge_1": "#d59100",
+         "grass_hills_edge_2": "#d5a500",
          "copper_ore": "#c87533",
          "tin_ore": "#b0a080",
          "iron_ore": "#90b0d0",
@@ -85,7 +85,7 @@
          "__comment": "can stretch the terrain vertically to allow for long mountain ridges",
          "aspect_ratio": 4.5
       },
-      "plains_percentage": 20,
+      "plains_percentage": 25,
       "height_base": 36,
       "__comments": {
          "valley_count": "offset of layers from base",
@@ -103,8 +103,8 @@
          "step_count": 1
       },
       "mountains": {
-         "step_size": 15,
-         "step_count": 3
+         "step_size": 20,
+         "step_count": 4
       }
    },
    "terrain_detailer": {
@@ -125,7 +125,7 @@
             "amplitude": 2.5,
             "layer_thickness": 5,
             "__comment": "determines how many adjacent blocks have the same depth",
-            "unit_length": 16
+            "unit_length": 8
          }
       },
       "foothills": {
@@ -290,19 +290,19 @@
                   "2": {
                      "mean": -4,
                      "std_dev": 50,
-                     "density": 1
+                     "density": 0.5
                   }
                },
                "foothills": {
                   "1": {
                      "mean": 0,
                      "std_dev": 40,
-                     "density": 0.5
+                     "density": 0.3
                   },
                   "2": {
                      "mean": 0,
                      "std_dev": 30,
-                     "density": 0.4
+                     "density": 0.2
                   }
                },
                "mountains": {
@@ -355,7 +355,7 @@
                "foothills": {
                   "1": {
                      "stonehearth:plants:silkweed": 1,
-					 "additional_biomes:plants:fall_berry_bush": 2
+					 "additional_biomes:plants:fall_berry_bush": 1
                   },
                   "2": {
 					 "additional_biomes:plants:mountain_flower": 1
@@ -363,9 +363,18 @@
                },
                "mountains": {
                   "1": {
-                     "stonehearth:plants:silkweed": 1,
-					 "additional_biomes:plants:mountain_flower": 2
-                  }
+                     "stonehearth:plants:silkweed": 2,
+					 "additional_biomes:plants:mountain_flower": 4,
+					 "additional_biomes:plants:fall_berry_bush": 2
+                  },
+				  "2": {
+					"stonehearth:plants:silkweed": 2,
+					"additional_biomes:plants:mountain_flower": 4,
+					"additional_biomes:plants:fall_berry_bush": 2
+				},
+				  "3": {
+					"additional_biomes:plants:mountain_flower": 1
+				}
                }
             },
             "noise_map_parameters": {
@@ -382,12 +391,12 @@
                   },
                   "foothills": {
                      "1": {
-                        "density": 0.3,
-                        "probability": 0.6
+                        "density": 0.2,
+                        "probability": 0.2
                      },
                      "2": {
-                        "density": 0.2,
-                        "probability": 0.6
+                        "density": 0.1,
+                        "probability": 0.1
                      }
                   },
                   "mountains": {
@@ -395,7 +404,7 @@
                         "density": 0.8,
                         "probability": 0.2
                      },
-                     "3": {
+                     "2": {
                         "density": 0.8,
                         "probability": 0.3
                      }
@@ -425,7 +434,7 @@
                   },
                   "mountains": {
                      "1": {
-                        "probability": 0.15,
+                        "probability": 0.5,
                         "density": 0.6
                      }
                   }
@@ -449,13 +458,13 @@
             "persistence_ratio": 0.005,
             "bandlimit": 2,
             "octaves": 2,
-            "range": 20,
+            "range": 60,
             "aspect_ratio": 1,
 	    "_comment": "a_r: impacts the amount of water present (2 is extremely high amounts of water), mean: also impacts amount of water",
             "mean": {
                "plains": 0,
-               "foothills": -5,
-               "mountains": -8
+               "foothills": -20,
+               "mountains": -25
             }
          }
       }

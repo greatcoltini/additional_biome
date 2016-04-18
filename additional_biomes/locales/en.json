@@ -1,35 +1,107 @@
 {
    "data": {
       "biome": {
-         "winter": {
-            "display_name": "Frosthearth",
-            "description": "More snow and cold than one would appreciate.",
-            "random_location_names": {
-               "000": "Malaio Archipelago",
-               "001": "Mauna Loa Archipelago",
-               "002": "Kilak Archipelago",
-               "003": "Mergui Archipelago"
-		}
-            },
-	  "mountain": {
-	    "display_name": "Mountains",
-	    "description": "A range of mountains, with rivers leading through them.",
+		"mountain": {
+	    "display_name": "Autumn Hills",
+	    "description": "The leaves are changing colour in this mountainous region.",
 	    "random_location_names": {
-		"000": "Boulder Bananza",
-		"001": "The Hills",
-		"002": "Rocky Ridge",
-		"003": "Klipyak Mountains"
+		"000": "Autumn Hills",
+		"001": "The Stijn Cliffs",
+		"002": "Chiel Ridge",
+		"003": "Klipyak Hills"
 	    }
          } 
       }
    },
    "entities": {
+		"critters": {
+			"turkey": {
+				"display_name": "Turkey",
+				"description": "A turkey just ready to be gobbled up.",
+				"turkey_egg": {
+					"display_name": "Turkey Egg",
+					"description": "An egg with a Turkey inside."
+				},
+				"turkey_young": {
+					"display_name": "Young Turkey",
+					"description": "A still-growing Turkey."
+				}
+			}
+		}
+		"decoration": {
+			"window_box_mountain_flower": {
+				"window_box_mountain_flower_ghost": {
+					"display_name": "Mountain Flower Window Box",
+					"description": "So colourful and pretty!"
+				}
+			},
+			"cornucopia": {
+				"cornucopia_ghost": {
+					"display_name": "Cornucopia",
+					"description": "A colourful assortment of food!"
+				}
+			}
+		},
+		"crops": {
+			"mountain_flower_crop": {
+				"display_name": "Mountain Flower Crop",
+				"description": "A colourful plant native to the mountains.",
+				"growth_stage.000": {
+					"name": "Freshly Planted Mountain Flower",
+					"description": "Your farmer just planted these mountain flowers."
+					},
+				"growth_stage.001": {
+					"name": "Young Mountain Flower",
+					"description": "A growing little mountain flower."
+					},
+				"growth_stage.002": {
+					"name": "Adolescent Mountain Flower",
+					"description": "Soon to be reaching it's maturity."
+					},
+				"growth_stage.003": {
+					"name": "Mature Mountain Flower",
+					"description": "Just waiting to be picked and planted!"
+					}
+			}
+		},
+		"food": {
+			"berries": {
+				"fall_berry_serving": {
+					"display_name": "Fall Berry Serving",
+					"description": "Yummy berries in autumn!"
+				},
+				"fall_berry_basket": {
+					"display_name": "Fall Berry Basket",
+					"description": "A basket of fall berries."
+				}
+			},
+			"turkey_meat": {
+				"display_name": "Turkey Meat",
+				"description": "Meat from... it's self explanatory."
+			},
+			"turkey_feed": {
+				"display_name": "Turkey Feed",
+				"description": "Food for the turkey."
+			},
+			"roast_turkey": {
+				"display_name": "Roast Turkey",
+				"description": "Mmm, cooked turkey.",
+				"roast_turkey_serving": {
+					"display_name": "Roast Turkey Serving"
+				}
+			}
+		},
 		"plants": {
 			"mountain_flower": {
 				"name": "Mountain Flower",
 				"display_name": "Mountain Flower",
 				"description": "A flower that makes you reminisce about the cliffs surrounding you.",
 				"unripe_description": "Not quite ready for the picking."
+			},
+			"fall_berry_bush": {
+				"display_name": "Fall Berry Bush",
+				"description": "A berry bush that blooms in the fall!",
+				"unripe_description": "The fall berries are not quite ready."
 			}
 		},
 		"resources": {
@@ -79,5 +151,50 @@
 				}
 			}
 		
-   }
+   },
+   "jobs": {
+		"carpenter": {
+			"recipes": {
+				"window_box_mountain_flower_recipe": {
+					"recipe_name": "Mountain Flower Window Box",
+					"description": "A flower box full of mountain flowers.",
+					"flavor": "A colourful array of picked mountain flowers in a box to sit on a windowsill."
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"cornucopia_recipe": {
+					"recipe_name": "Cornucopia",
+					"description": "An autumn decoration of food, best kept indoors.",
+					"flavor": "A variety of foods in a decorative container, appealing to both the eyes and the stomach!"
+				},
+				"turkey_pot_pie_recipe": {
+					"recipe_name": "Turkey Pot Pie",
+					"description": "A pot pie made of turkey and vegetables.",
+					"flavor": " "
+				},
+				"turkey_feed_recipe": {
+					"recipe_name": "Turkey Feed",
+					"description": "I wouldn't eat this if I were you.",
+					"flavor": " "
+				},
+				"roast_turkey_recipe": {
+					"recipe_name": "Roast Turkey",
+					"description": "Yummy roasted turkey meat!",
+					"flavor": " "
+				}
+			}
+		}
+	},
+	"ui" : {
+		"game": {
+			"zones_mode": {
+				"pasture": {
+					"turkey_pasture_name": "Turkey Pasture",
+					"turkey_pasture_description": "A pasture for turkeys!"
+				}
+			}
+		}
+	}
 }
