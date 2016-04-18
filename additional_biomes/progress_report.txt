@@ -1,0 +1,16 @@
+v0.01:
+- Finished hard mode storyboard
+- Finished normal difficulty storyboard
+- Finished 400x300 image
+- Changed description and name to be more fitting of the biome
+- Tinkered with generation
+- Fall berries spawn in mountain region
+- Boulders spawn in large quantities in mountains
+- Added mountain flower crop
+- Added mountain flower
+- Added mountain flower window box
+- Added fall berry bush, with harvestable berries
+- Added fall trees (oak and juniper)
+- Added turkey food items and turkey feed
+- Added turkeys
+-
