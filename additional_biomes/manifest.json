@@ -31,6 +31,9 @@
 		"food:turkey_feed_ground" : "file(entities/food/turkey_feed/turkey_feed_ground)",
 		"food:roast_turkey" : "file(entities/food/roast_turkey/roast_turkey)",
 		"food:roast_turkey:roast_turkey_serving": "file(entities/food/roast_turkey/roast_turkey_serving)",
+		"food:cheese_wheel" : "file(entities/food/cheese_wheel/cheese_wheel)",
+		"food:cheese_wheel_serving" : "file(entities/food/cheese_wheel/cheese_wheel_serving)",
+		"food:milk_bucket": "file(entities/food/milk_bucket)",
 		
 		"window_box_mountain_flower_recipe" : "file(entities/decoration/window_box_mountain_flower/window_box_mountain_flower.json)",
 		
@@ -39,7 +42,10 @@
 		
 		"turkey": "file(entities/critters/turkey)",
 		"turkey:egg": "file(entities/critters/turkey/egg)",
-		"turkey:young": "file(entities/critters/turkey/young)"
+		"turkey:young": "file(entities/critters/turkey/young)",
+		
+		"cow": "file(entities/critters/cow/cow.json)",
+		"cow:young": "file(entities/critters/cow/cow_young.json)"
    },
    "mixintos" :  {
       "stonehearth:biome:index": "file(data/biome/index.json)",
