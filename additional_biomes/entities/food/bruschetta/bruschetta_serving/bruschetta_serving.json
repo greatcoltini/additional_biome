@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.food.bruschetta.bruschetta_serving.display_name)",
+         "description": "i18n(additional_biomes:entities.food.bruschetta.bruschetta_serving.description)"
+      },
+      "stonehearth:material": {
+         "tags": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bruschetta_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 360
+         },
+         "default": {
+            "satisfaction": 300
+         }
+      }
+   }
+}

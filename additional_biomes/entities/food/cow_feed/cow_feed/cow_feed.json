@@ -1,0 +1,41 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 4,
+         "max_stacks": 4,
+         "category": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cow_feed.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.food.cow_feed.cow_feed.display_name)",
+         "description": "i18n(additional_biomes:entities.food.cow_feed.cow_feed.description)",
+         "icon": "file(cow_feed.png)"
+      },
+      "stonehearth:material": {
+         "tags": "stockpile_cooking_ingredient cow_feed_bag animal_feed"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

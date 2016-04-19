@@ -1,0 +1,45 @@
+{
+   "type": "entity",
+   "mixins": "file(lavender_ghost.json)",
+   "components": {
+      "model_variants": {
+         "depleted": {
+            "models": [
+               "file(lavender_plant_harvested.qb)"
+            ]
+         }
+      },
+	  "unit_info" : {
+         "name": "i18n(additional_biomes:entities.plants.lavender.name)", 
+         "description": "i18n(additional_biomes:entities.plants.lavender.description)"
+      },  
+      "stonehearth:renewable_resource_node": {
+         "category": "harvest",
+         "harvest_overlay_effect": "/stonehearth/data/effects/harvest_plant_overlay_effect",
+         "unripe_description": "i18n(additional_biomes:entities.plants.lavender_plant.unripe_description)",
+         "resource": "additional_biomes:resources:herb:lavender",
+         "renewal_time": "22h"
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(lavender_iconic.json)",
+         "ghost_form": "file(lavender_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      },
+      "stonehearth:material": {
+         "tags": "plant"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}
