@@ -3,6 +3,10 @@
 	{
 		"crop_type" : "additional_biomes:crops:mountain_flower_crop",
 		"quantity" : 5
-	 }
+	 },
+	 {
+		"crop_type" : "additional_biomes:crops:lavender_crop",
+		"quantity" : 5
+	}
 	 ]
 }

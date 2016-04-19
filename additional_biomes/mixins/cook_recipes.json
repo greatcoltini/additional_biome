@@ -11,8 +11,14 @@
 				"roast_turkey": {
 					"recipe": "file(/recipes/roast_turkey_recipe.json)"
 				},
+				"cooked_steak": {
+					"recipe": "file(/recipes/cooked_steak_recipe.json)"
+				},
 				"cheese_wheel": {
 					"recipe": "file(/recipes/cheese_wheel_recipe.json)"
+				},
+				"bruschetta": {
+					"recipe": "file(/recipes/bruschetta_recipe.json)"
 				}
 			}
 		},
@@ -20,6 +26,9 @@
 			"recipes": {
 				"turkey_feed": {
 					"recipe": "file(/recipes/turkey_feed_recipe.json)"
+				},
+				"cow_feed": {
+					"recipe": "file(/recipes/cow_feed_recipe.json)"
 				}
 			}
 		},
@@ -27,6 +36,9 @@
 			"recipes" : {
 				"cornucopia_recipe" : {
 					"recipe" : "file(/recipes/cornucopia_recipe.json)"
+				},
+				"pumpkin_decoration_recipe" : {
+					"recipe" : "file(/recipes/pumpkin_decoration_recipe.json)"
 				}
 			}
 		}
