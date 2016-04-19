@@ -6,7 +6,7 @@
    "flavor": "i18n(additional_biomes:jobs.cook.recipes.cornucopia_recipe.flavor)",
    "portrait": "/additional_biomes/entities/decoration/cornucopia/cornucopia.png",
    "workshop": "stonehearth:cook:workbench",
-   "level_requirement": 2,
+   "level_requirement": 1,
    "ingredients": [
       {
          "material": "wood resource",

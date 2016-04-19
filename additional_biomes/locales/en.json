@@ -9,7 +9,7 @@
 		"001": "The Stijn Cliffs",
 		"002": "Chiel Ridge",
 		"003": "Klipyak Hills"
-	    }
+			}
          } 
       }
    },
@@ -26,8 +26,16 @@
 					"display_name": "Young Turkey",
 					"description": "A still-growing Turkey."
 				}
+			},
+			"cow": {
+				"display_name": "Cow",
+				"description": "Just an everyday cow.",
+				"cow_young": {
+					"display_name": "Young Cow",
+					"description": "A yet-to-be mature Cow"
+				}
 			}
-		}
+		},
 		"decoration": {
 			"window_box_mountain_flower": {
 				"window_box_mountain_flower_ghost": {
@@ -83,12 +91,36 @@
 				"display_name": "Turkey Feed",
 				"description": "Food for the turkey."
 			},
+			"turkey_pot_pie": {
+				"turkey_pot_pie": {
+					"display_name": "Turkey Pot Pie",
+					"description": "A turkey pot pie with vegetables!"
+				},
+				"turkey_pot_pie_serving": {
+					"display_name": "Turkey Pot Pie Serving",
+					"description": "A serving of Turkey Pot Pie."
+				}
+			},
 			"roast_turkey": {
 				"display_name": "Roast Turkey",
 				"description": "Mmm, cooked turkey.",
 				"roast_turkey_serving": {
 					"display_name": "Roast Turkey Serving"
 				}
+			},
+			"cheese_wheel": {
+				"cheese_wheel": {
+					"display_name": "Cheese Wheel",
+					"description": "Freshly made cheese!"
+				},
+				"cheese_wheel_serving": {
+					"display_name": "Cheese Serving",
+					"description": "A serving of cheese."
+				}
+			},
+			"milk_bucket": {
+				"display_name": "Bucket of Milk",
+				"description": "Freshly squeezed from the teets of a cow."
 			}
 		},
 		"plants": {
@@ -130,7 +162,7 @@
 					"display_name": "Ancient Fall Juniper Tree",
 					"description": "A colourful juniper tree past it's peak."
 					}
-				},
+			},
 			"fall_oak_tree": {
 				"small_fall_oak_tree": {
 					"display_name": "Small Fall Oak Tree",
@@ -183,6 +215,11 @@
 					"recipe_name": "Roast Turkey",
 					"description": "Yummy roasted turkey meat!",
 					"flavor": " "
+				},
+				"cheese_wheel_recipe": {
+					"recipe_name": "Cheese Wheel",
+					"description": "Churned from the cow just like mom used to make.",
+					"flavor": " "
 				}
 			}
 		}
@@ -192,7 +229,9 @@
 			"zones_mode": {
 				"pasture": {
 					"turkey_pasture_name": "Turkey Pasture",
-					"turkey_pasture_description": "A pasture for turkeys!"
+					"turkey_pasture_description": "A pasture for turkeys!",
+					"cow_pasture_name": "Cow Pasture",
+					"cow_pasture_description": "Moo! Cows roam in this pasture."
 				}
 			}
 		}

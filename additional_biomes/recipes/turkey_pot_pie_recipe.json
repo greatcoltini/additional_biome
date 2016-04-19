@@ -6,7 +6,7 @@
    "flavor": "i18n(additional_biomes:jobs.cook.recipes.turkey_pot_pie_recipe.flavor)",
    "portrait": "/additional_biomes/entities/food/turkey_pot_pie/turkey_pot_pie/turkey_pot_pie.png",
    "workshop": "stonehearth:cook:oven",
-   "level_requirement": 3,
+   "level_requirement": 1,
    "ingredients": [
       {
          "uri": "stonehearth:food:flour",

@@ -7,6 +7,9 @@
 				},
 				"roast_turkey": {
 					"recipe": "file(/recipes/roast_turkey_recipe.json)"
+				},
+				"cheese_wheel": {
+					"recipe": "file(/recipes/cheese_wheel_recipe.json)"
 				}
 			}
 		},
