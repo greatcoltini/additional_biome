@@ -1,0 +1,46 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 4,
+         "max_stacks": 4,
+         "category": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cheese_wheel.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.food.cheese_wheel.cheese_wheel.display_name)",
+         "description": "i18n(additional_biomes:entities.food.cheese_wheel.cheese_wheel.description)",
+         "icon": "file(cheese_wheel.png)"
+      },
+      "stonehearth:material": {
+         "tags": "food_container prepared_food cheese_wheel"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "additional_biomes:food:cheese_wheel:cheese_wheel_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 29,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

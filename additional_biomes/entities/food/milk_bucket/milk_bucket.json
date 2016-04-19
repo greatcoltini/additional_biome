@@ -1,0 +1,41 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 40,
+         "max_stacks": 40,
+         "category": "resources"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(milk_bucket.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "display_name": "i18n(stonehearth:entities.food.milk_bucket.display_name)",
+         "description": "i18n(stonehearth:entities.food.milk_bucket.description)",
+         "icon": "file(milk_bucket.png)"
+      },
+      "stonehearth:material": {
+         "tags": "stockpile_animal_part raw_food animal_part milk"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+			}
+		}
+  }
+}
