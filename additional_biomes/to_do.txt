@@ -1,10 +1,5 @@
-- lavender, lavender herb, lavender crop
-- purple wolf flower, purple wolf flower herb
-- cow feed
-- add raw steak, cooked steak
 - tall grass, tall grass crop, tall grass herb
-- update turkey models
 - potpourri
-- bruschetta
 - scarecrow
-- pumpkin decoration
+- golden egg dropped by turkey
+- fix collision models for added stuff (learn how)
