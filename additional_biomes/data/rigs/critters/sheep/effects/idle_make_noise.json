@@ -10,19 +10,11 @@
       "sound": {
          "type": "sound_effect",
          "duration": 1000,
-         "start_time": 200,
+         "start_time": 0,
          "min_distance": 20,
          "falloff" : 7,
          "volume": 85,
-         "track" : {
-            "type": "one_of",
-            "items": [
-               "stonehearth:sounds:sheep:baa_01",
-               "stonehearth:sounds:sheep:baa_02",
-               "stonehearth:sounds:sheep:baa_03",
-               "stonehearth:sounds:sheep:baa_04"
-            ]    
-         }
+         "track" : "additional_biomes:sounds:cow_moo"
       }
    }
 }
