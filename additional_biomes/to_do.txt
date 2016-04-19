@@ -1,4 +1,3 @@
-- go through and update png to transparent // remove wireframes
 - lavender, lavender herb, lavender crop
 - purple wolf flower, purple wolf flower herb
 - cow feed
