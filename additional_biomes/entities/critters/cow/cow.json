@@ -27,7 +27,7 @@
          "harvest_overlay_effect": "/stonehearth/data/effects/chop_overlay_effect",
          "harvester_effect": "fiddle",
          "description": "harvest_animal",
-         "resource": "stonehearth:food:mutton",
+         "resource": "additional_biomes:food:raw_steak",
          "harvestable_by_harvest_tool": false
       },
       "stonehearth:attributes": {
@@ -94,7 +94,7 @@
          "added_equipment": [
             "stonehearth:pasture_equipment:adult_animal_collar"
          ],
-         "food_material": "sheep_feed_edible"
+         "food_material": "cow_feed_edible"
       },
       "stonehearth:observers:calorie_animals": {
          "max": 30,
