@@ -21,3 +21,4 @@ v0.02:
 - cheese wheel added
 - added cow and turkey sounds
 - added pumpkin pie
+- fixed all images to not have wireframes and be transparent
