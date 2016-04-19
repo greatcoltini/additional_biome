@@ -1,7 +1,10 @@
-- lavender
-- purple wolf flower
-- lavender crop
+- lavender, lavender herb, lavender crop
+- purple wolf flower, purple wolf flower herb
 - cow feed
-- add raw steak and steak
-- grass crop
-- pauperie
+- add raw steak, cooked steak
+- tall grass, tall grass crop, tall grass herb
+- update turkey models
+- potpourri
+- bruschetta
+- scarecrow
+- pumpkin decoration
