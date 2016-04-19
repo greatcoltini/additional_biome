@@ -15,8 +15,8 @@
          }
       },
       "unit_info": {
-         "display_name": "i18n(stonehearth:entities.food.milk_bucket.display_name)",
-         "description": "i18n(stonehearth:entities.food.milk_bucket.description)",
+         "display_name": "i18n(additional_biomes:entities.food.milk_bucket.display_name)",
+         "description": "i18n(additional_biomes:entities.food.milk_bucket.description)",
          "icon": "file(milk_bucket.png)"
       },
       "stonehearth:material": {
