@@ -1,0 +1,88 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(../../plants/lavender/lavender.qb)"
+            ]
+         },
+         "lavender_1": {
+            "models": [
+               "file(lavender_1.qb)"
+            ]
+         },
+         "lavender_2": {
+            "models": [
+               "file(lavender_2.qb)"
+            ]
+         },
+         "lavender_3": {
+            "models": [
+               "file(lavender_3.qb)"
+            ]
+         },
+         "lavender_4": {
+            "models": [
+               "file(lavender_4.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.13
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.crops.lavender_crop.display_name)",
+         "description": "i18n(additional_biomes:entities.crops.lavender_crop.description)",
+         "icon": "file(../../plants/lavender/lavender.png)"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "lavender_4": "additional_biomes:resources:herb:lavender"
+         },
+         "harvest_threshhold": "lavender_4",
+         "plant_overlay_effect": "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      },
+      "stonehearth:growing": {
+         "growth_period": "15h",
+         "growth_stages": [
+            {
+               "model_name": "lavender_1",
+               "name": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.000.name)",
+               "description": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "lavender_2",
+               "name": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.001.name)",
+               "description": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "lavender_3",
+               "name": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.002.name)",
+               "description": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "lavender_4",
+               "name": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.003.name)",
+               "description": "i18n(additional_biomes:entities.crops.lavender_crop.growth_stage.003.description)"
+            }
+         ]
+      },
+      "additional_biomes:material": {
+         "tags": "lavender crop"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0.2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      }
+   }
+}
