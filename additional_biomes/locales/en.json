@@ -48,28 +48,58 @@
 					"display_name": "Cornucopia",
 					"description": "A colourful assortment of food!"
 				}
+			},
+			"pumpkin_decoration": {
+				"pumpkin_decoration_ghost": {
+					"display_name": "Pumpkin Decoration",
+					"description": "A collection of pumpkins to display on your lawn."
+				}
 			}
 		},
 		"crops": {
 			"mountain_flower_crop": {
 				"display_name": "Mountain Flower Crop",
 				"description": "A colourful plant native to the mountains.",
-				"growth_stage.000": {
-					"name": "Freshly Planted Mountain Flower",
-					"description": "Your farmer just planted these mountain flowers."
+				"growth_stage": {
+					"000": {
+						"name": "Freshly Planted Mountain Flower",
+						"description": "Your farmer just planted these mountain flowers."
 					},
-				"growth_stage.001": {
-					"name": "Young Mountain Flower",
-					"description": "A growing little mountain flower."
+					"001": {
+						"name": "Young Mountain Flower",
+						"description": "A growing little mountain flower."
 					},
-				"growth_stage.002": {
-					"name": "Adolescent Mountain Flower",
-					"description": "Soon to be reaching it's maturity."
+					"002": {
+						"name": "Adolescent Mountain Flower",
+						"description": "Soon to be reaching it's maturity."
 					},
-				"growth_stage.003": {
-					"name": "Mature Mountain Flower",
-					"description": "Just waiting to be picked and planted!"
+					"003": {
+						"name": "Mature Mountain Flower",
+						"description": "Just waiting to be picked and planted!"
 					}
+				}
+			},
+			"lavender_crop": {
+				"display_name": "Lavender Crop",
+				"description": "A purple flower used in decorative recipes.",
+				"growth_stage": {
+					"000": {
+						"name": "Freshly Planted Lavender",
+						"description": "Your farmer just planted this lavender."
+					},
+					"001": {
+						"name": "Young Lavender",
+						"description": "A growing lavender crop."
+					},
+					"002": {
+						"name": "Adolescent Lavender",
+						"description": "Soon to be reaching picking maturity."
+					},
+					"003": {
+						"name": "Lavender",
+						"description": "All ready to be harvested."
+					}
+				}
 			}
 		},
 		"food": {
@@ -86,6 +116,10 @@
 			"turkey_meat": {
 				"display_name": "Turkey Meat",
 				"description": "Meat from... it's self explanatory."
+			},
+			"raw_steak": {
+				"display_name": "Raw Steak",
+				"description": "Straight from the cow, waiting to be cooked."
 			},
 			"turkey_feed": {
 				"display_name": "Turkey Feed",
@@ -115,7 +149,8 @@
 				"display_name": "Roast Turkey",
 				"description": "Mmm, cooked turkey.",
 				"roast_turkey_serving": {
-					"display_name": "Roast Turkey Serving"
+					"display_name": "Roast Turkey Serving",
+					"description": "A serving of roast turkey."
 				}
 			},
 			"cheese_wheel": {
@@ -126,6 +161,16 @@
 				"cheese_wheel_serving": {
 					"display_name": "Cheese Serving",
 					"description": "A serving of cheese."
+				}
+			},
+			"bruschetta": {
+				"bruschetta": {
+					"display_name": "Bruschetta",
+					"description": "Cheese and bread!"
+				},
+				"bruschetta_serving": {
+					"display_name": "Bruschetta Serving",
+					"description": "A serving of bruschetta bread."
 				}
 			},
 			"milk_bucket": {
@@ -140,6 +185,12 @@
 				"description": "A flower that makes you reminisce about the cliffs surrounding you.",
 				"unripe_description": "Not quite ready for the picking."
 			},
+			"lavender": {
+				"name": "Lavender",
+				"display_name": "Lavender",
+				"description": "A purple flower begging you to pick it.",
+				"unripe_description": "Not ready to be taken just yet."
+			},
 			"fall_berry_bush": {
 				"display_name": "Fall Berry Bush",
 				"description": "A berry bush that blooms in the fall!",
@@ -151,6 +202,10 @@
 				"mountain_flower": {
 					"display_name": "Mountain Flower",
 					"description": "A flower gathered from a mountainous region."
+				},
+				"lavender": {
+					"display_name": "Lavender",
+					"description": "A beautiful purple flower used in decoration."
 				}
 			}
 		},
@@ -211,6 +266,11 @@
 					"description": "An autumn decoration of food, best kept indoors.",
 					"flavor": "A variety of foods in a decorative container, appealing to both the eyes and the stomach!"
 				},
+				"pumpkin_decoration_recipe": {
+					"recipe_name": "Pumpkin Decoration",
+					"description": "A collection of pumpkins to display on your lawn.",
+					"flavor": " "
+				},
 				"turkey_pot_pie_recipe": {
 					"recipe_name": "Turkey Pot Pie",
 					"description": "A pot pie made of turkey and vegetables.",
@@ -220,10 +280,20 @@
 					"recipe_name": "Pumpkin Pie",
 					"description": "A delicious pumpkin pie.",
 					"flavor": " "
-				}
+				},
 				"turkey_feed_recipe": {
 					"recipe_name": "Turkey Feed",
 					"description": "I wouldn't eat this if I were you.",
+					"flavor": " "
+				},
+				"cow_feed_recipe": {
+					"recipe_name": "Cow Feed",
+					"description": "A collection of long grass for the cows to eat.",
+					"flavor": " "
+				},
+				"cooked_steak_recipe": {
+					"recipe_name": "Cooked Steak",
+					"description": "A steak cooked not well done, but to perfection.",
 					"flavor": " "
 				},
 				"roast_turkey_recipe": {
@@ -234,6 +304,11 @@
 				"cheese_wheel_recipe": {
 					"recipe_name": "Cheese Wheel",
 					"description": "Churned from the cow just like mom used to make.",
+					"flavor": " "
+				},
+				"bruschetta_recipe": {
+					"recipe_name": "Bruschetta",
+					"description": "Bread fresh from the oven, topped with cheese!",
 					"flavor": " "
 				}
 			}
