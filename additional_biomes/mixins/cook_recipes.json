@@ -5,6 +5,9 @@
 				"turkey_pot_pie": {
 					"recipe": "file(/recipes/turkey_pot_pie_recipe.json)"
 				},
+				"pumpkin_pie": {
+					"recipe": "file(/recipes/pumpkin_pie_recipe.json)"
+				},
 				"roast_turkey": {
 					"recipe": "file(/recipes/roast_turkey_recipe.json)"
 				},

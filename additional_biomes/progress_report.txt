@@ -15,3 +15,9 @@ v0.01:
 - Added turkeys
 
 v0.02:
+- cows
+- cornucopia updated
+- milk bucket added
+- cheese wheel added
+- added cow and turkey sounds
+- added pumpkin pie

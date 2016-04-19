@@ -101,6 +101,16 @@
 					"description": "A serving of Turkey Pot Pie."
 				}
 			},
+			"pumpkin_pie": {
+				"pumpkin_pie": {
+					"display_name": "Pumpkin Pie",
+					"description": "A favourite at household gatherings."
+				},
+				"pumpkin_pie_serving": {
+					"display_name": "Pumpkin Pie Serving",
+					"description": "A filling serving of pumpkin pie with whip cream!"
+				}
+			},
 			"roast_turkey": {
 				"display_name": "Roast Turkey",
 				"description": "Mmm, cooked turkey.",
@@ -206,6 +216,11 @@
 					"description": "A pot pie made of turkey and vegetables.",
 					"flavor": " "
 				},
+				"pumpkin_pie_recipe": {
+					"recipe_name": "Pumpkin Pie",
+					"description": "A delicious pumpkin pie.",
+					"flavor": " "
+				}
 				"turkey_feed_recipe": {
 					"recipe_name": "Turkey Feed",
 					"description": "I wouldn't eat this if I were you.",

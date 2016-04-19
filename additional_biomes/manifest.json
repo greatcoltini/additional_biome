@@ -26,6 +26,8 @@
 		"food:berries:fall_berry_basket" : "file(entities/food/berries/fall_berry_basket)",
 		"food:turkey_pot_pie" : "file(entities/food/turkey_pot_pie/turkey_pot_pie)",
 		"food:turkey_pot_pie_serving" : "file(entities/food/turkey_pot_pie/turkey_pot_pie_serving)",
+		"food:pumpkin_pie" : "file(entities/food/pumpkin_pie/pumpkin_pie)",
+		"food:pumpkin_pie_serving" : "file(entities/food/pumpkin_pie/pumpkin_pie_serving)",
 		"food:turkey_meat" : "file(entities/food/turkey_meat)",
 		"food:turkey_feed" : "file(entities/food/turkey_feed/turkey_feed)",
 		"food:turkey_feed_ground" : "file(entities/food/turkey_feed/turkey_feed_ground)",
@@ -43,9 +45,11 @@
 		"turkey": "file(entities/critters/turkey)",
 		"turkey:egg": "file(entities/critters/turkey/egg)",
 		"turkey:young": "file(entities/critters/turkey/young)",
+		"sounds:turkey_gobble" : "file(data/sounds/effects/ab_turkey_gobble)",
 		
 		"cow": "file(entities/critters/cow/cow.json)",
-		"cow:young": "file(entities/critters/cow/cow_young.json)"
+		"cow:young": "file(entities/critters/cow/cow_young.json)",
+		"sounds:cow_moo" : "file(data/sounds/effects/ab_cow_moo.wav)"
    },
    "mixintos" :  {
       "stonehearth:biome:index": "file(data/biome/index.json)",
