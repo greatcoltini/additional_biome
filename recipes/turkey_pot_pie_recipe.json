@@ -1,0 +1,33 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(additional_biomes:jobs.cook.recipes.turkey_pot_pie_recipe.recipe_name)",
+   "description": "i18n(additional_biomes:jobs.cook.recipes.turkey_pot_pie_recipe.description)",
+   "flavor": "i18n(additional_biomes:jobs.cook.recipes.turkey_pot_pie_recipe.flavor)",
+   "portrait": "/additional_biomes/entities/food/turkey_pot_pie/turkey_pot_pie/turkey_pot_pie.png",
+   "workshop": "stonehearth:cook:oven",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:flour",
+         "count": 1
+      },
+      {
+         "uri": "additional_biomes:food:turkey_meat",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:carrot:carrot_basket",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:corn:corn_basket",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "additional_biomes:food:turkey_pot_pie"
+      }
+   ]
+}

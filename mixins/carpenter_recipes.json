@@ -1,0 +1,11 @@
+{
+	"craftable_recipes" : {
+		"building_parts" : {
+			"recipes" : {
+				"window_box_mountain_flower_recipe" : {
+					"recipe" : "file(/recipes/window_box_mountain_flower_recipe.json)"
+				}
+			}
+		}
+	}
+}

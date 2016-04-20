@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(additional_biomes:jobs.cook.recipes.cheese_wheel_recipe.recipe_name)",
+   "description": "i18n(additional_biomes:jobs.cook.recipes.cheese_wheel_recipe.description)",
+   "flavor": "i18n(additional_biomes:jobs.cook.recipes.cheese_wheel_recipe.flavor)",
+   "portrait": "/additional_biomes/entities/food/cheese_wheel/cheese_wheel/cheese_wheel.png",
+   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "additional_biomes:food:milk_bucket",
+         "count": 2
+      }
+	  ],
+   "produces": [
+      {
+         "item": "additional_biomes:food:cheese_wheel"
+      }
+   ]
+}

@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "work_units": 1,
+   "recipe_name": "i18n(additional_biomes:jobs.cook.recipes.turkey_feed_recipe.recipe_name)",
+   "description": "i18n(additional_biomes:jobs.cook.recipes.turkey_feed_recipe.description)",
+   "flavor": "i18n(additional_biomes:jobs.cook.recipes.turkey_feed_recipe.flavor)",
+   "portrait": "/additional_biomes/entities/food/turkey_feed/turkey_feed/turkey_feed.png",
+   "workshop": "stonehearth:cook:mill",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:corn:corn_basket",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "additional_biomes:food:turkey_feed"
+      }
+   ]
+}
