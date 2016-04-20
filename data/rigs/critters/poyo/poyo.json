@@ -1,0 +1,14 @@
+{
+   "skeleton" : {
+      "root": [4.5,6.5,0],
+      "body": [4.5,7,4.5],
+      "head": [4.5,5.0168,4.98158],
+      "leftWing": [7.5,5.02998,5.01174],
+      "rightWing": [1.5,5.00461,5.01174],
+      "tail": [4.5,8.99061,4.93956],
+      "leftLeg": [6.5,6.5,2.00313],
+      "rightLeg": [2.5,6.5,2.00313]
+    },
+   "animation_root" : "file(animations)",
+   "effects_root" : "file(effects)"
+}
