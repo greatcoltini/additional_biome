@@ -1,4 +1,3 @@
 - fix collision models for added stuff (learn how)
 - make scarecrow bigger
-- make archer headdress provide attack speed bonus
--update headdress
+- make archer headdress a. increase range or b. increase damage
