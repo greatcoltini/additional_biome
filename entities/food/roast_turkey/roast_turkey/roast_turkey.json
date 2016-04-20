@@ -1,0 +1,46 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 6,
+         "max_stacks": 6,
+         "category": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(roast_turkey.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.food.roast_turkey.roast_turkey.display_name)",
+         "description": "i18n(additional_biomes:entities.food.roast_turkey.roast_turkey.description)",
+         "icon": "file(roast_turkey.png)"
+      },
+      "stonehearth:material": {
+         "tags": "food_container prepared_food roast_turkey"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "additional_biomes:food:roast_turkey:roast_turkey_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 14,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

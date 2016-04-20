@@ -1,0 +1,58 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:tree",
+      "file(sapling_oak_tree_ghost.json)"
+   ],
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(sapling_oak_tree_iconic.json)",
+         "ghost_form": "file(sapling_oak_tree_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_placement_ui": true
+      },
+      "unit_info": {
+         "description": "i18n(stonehearth:entities.trees.oak_tree.sapling_oak_tree.description)"
+      },
+      "stonehearth:material": {
+         "tags": "plant tree"
+      },
+      "stonehearth:evolve": {},
+      "stonehearth:resource_node": {
+         "resource": "stonehearth:resources:wood:oak_log",
+         "durability": 2
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 6, "z": 2 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "stonehearth:trees:oak:small",
+         "evolve_time": "1d"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}
