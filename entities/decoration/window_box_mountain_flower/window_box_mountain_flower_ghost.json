@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(window_box_mountain_flower.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": -0.5, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.decoration.window_box_mountain_flower.window_box_mountain_flower_ghost.display_name)",
+         "description": "i18n(additional_biomes:entities.decoration.window_box_mountain_flower.window_box_mountain_flower_ghost.description)",
+         "icon": "file(window_box_mountain_flower.png)"
+      },
+      "stonehearth:material": {
+         "tags": "decoration crafted"
+      }
+   }
+}
