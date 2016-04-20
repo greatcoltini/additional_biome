@@ -1,8 +1,8 @@
 {
    "type": "recipe",
    "work_units": 3,
-   "recipe_name": "i18n(stonehearth:jobs.weaver.recipes.archer_headdress_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.weaver.recipes.archer_headdress_recipe.description)",
+   "recipe_name": "i18n(additional_biomes:jobs.weaver.recipes.archer_headdress_recipe.recipe_name)",
+   "description": "i18n(additional_biomes:jobs.weaver.recipes.archer_headdress_recipe.description)",
    "flavor": "",
    "portrait": "/additional_biomes/entities/armor/archer_headdress/archer_headdress.png",
    "workshop": "stonehearth:weaver:workbench",

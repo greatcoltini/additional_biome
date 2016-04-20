@@ -34,3 +34,4 @@ v0.02:
 - added golden egg mined for golden ingot from turkey
 - added turkey feathers
 - added archer headdress
+- merged temperate_mixins and temperate_noise_mixins

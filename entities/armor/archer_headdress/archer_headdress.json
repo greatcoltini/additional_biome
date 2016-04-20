@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "display_name": "i18n(stonehearth:entities.armor.archer_headdress.display_name)",
-         "description": "i18n(stonehearth:entities.armor.archer_headdress.description)",
+         "display_name": "i18n(additional_biomes:entities.armor.archer_headdress.display_name)",
+         "description": "i18n(additional_biomes:entities.armor.archer_headdress.description)",
          "icon": "file(archer_headdress.png)"
       },
       "item": {
@@ -38,6 +38,11 @@
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 3
       },
+	  "modifiers": {
+		"additive_weapon_range_modifier": {
+			"add": 5
+		}
+	  },
       "stonehearth:net_worth": {
          "value_in_gold": 150,
          "rarity": "common",

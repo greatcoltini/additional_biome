@@ -43,6 +43,30 @@
 					"additional_biomes:plants:mountain_flower": 1
 					}
 				}
+            },
+			"noise_map_parameters": {
+               "terrain_based": {
+                  "foothills": {
+					 "2": {
+                        "probability": 0.2,
+                        "density": 0.7
+                     }
+                  },
+                  "mountains": {
+                     "1": {
+                        "probability": 0.2,
+                        "density": 0.7
+                     },
+					 "2": {
+                        "probability": 0.2,
+                        "density": 0.7
+                     },
+					 "3": {
+                        "probability": 0.2,
+                        "density": 0.7
+                     }
+                  }
+               }
             }
             }
 		}

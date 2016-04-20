@@ -86,7 +86,6 @@
 	  
 	  "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json" : "file(mixins/shepherd_pasture.json)",
 	  
-	  "/stonehearth/data/biome/temperate.json" : "file(mixins/temperate_mixin.json)",
-	  "/stonehearth/data/biome/temperate.json" : "file(mixins/temperate_noise_mixin.json)"
+	  "/stonehearth/data/biome/temperate.json" : "file(mixins/temperate_mixin.json)"
 	}
 }
