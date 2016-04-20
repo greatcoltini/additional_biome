@@ -3,3 +3,5 @@
 - scarecrow
 - golden egg dropped by turkey
 - fix collision models for added stuff (learn how)
+- turkey feathers
+- archers headdress
