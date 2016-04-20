@@ -56,6 +56,8 @@
 		"food:bruschetta_serving" : "file(entities/food/bruschetta/bruschetta_serving)",
 		"food:milk_bucket": "file(entities/food/milk_bucket)",
 		
+		"jobs:mage": "file(jobs/mage/mage_description.json)",
+		
 		"window_box_mountain_flower_recipe" : "file(entities/decoration/window_box_mountain_flower/window_box_mountain_flower.json)",
 		
 		"decoration:window_box:mountain_flower" : "file(entities/decoration/window_box_mountain_flower)",

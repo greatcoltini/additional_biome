@@ -3,9 +3,9 @@
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
       "unit_info": {
-         "display_name": "i18n(stonehearth:jobs.archer.archer_outfit.display_name)",
-         "description": "i18n(stonehearth:jobs.archer.archer_outfit.description)",
-         "icon": "file(archer_outfit.png)"
+         "display_name": "i18n(additional_biomes:jobs.mage.mage_outfit.display_name)",
+         "description": "i18n(additional_biomes:jobs.mage.mage_outfit.description)",
+         "icon": "file(mage_outfit.png)"
       },
       "render_info": {},
       "model_variants": {
@@ -13,14 +13,14 @@
             "layer": "clothing",
             "transparent": "false",
             "models": [
-               "file(archer_outfit.qb)"
+               "file(mage_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "transparent": "false",
             "models": [
-               "file(archer_outfit_female.qb)"
+               "file(mage_outfit_female.qb)"
             ]
          }
       },

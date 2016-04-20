@@ -1,0 +1,17 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "additional_biomes:combat:ranged_attacks": [
+         {
+            "name": "mage_fire_ball",
+            "effect": "archer_1h_shoot",
+            "active_frame": 41,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}
