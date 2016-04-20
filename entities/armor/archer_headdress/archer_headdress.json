@@ -18,6 +18,13 @@
             "layer": "hat",
             "transparent": "true",
             "models": [
+               "file(archer_headdress_male.qb)"
+            ]
+         },
+		 "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
                "file(archer_headdress.qb)"
             ]
          }
