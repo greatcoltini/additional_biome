@@ -1,2 +1,2 @@
-# additional_biome
+# additional_biomes
 mod for stonehearth
