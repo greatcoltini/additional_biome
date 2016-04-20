@@ -20,11 +20,12 @@
 		"plants:purple_wolf_flower" : "file(entities/plants/purple_wolf_flower)",
 		
 		"crops:mountain_flower_crop" : "file(entities/crops/mountain_flower_crop)",
-		"mountain_flower:crop" : "file(entities/crops/mountain_flower_crop)",
 		"crops:lavender_crop" : "file(entities/crops/lavender_crop)",
+		"crops:tall_grass" : "file(entities/crops/tall_grass_crop)",
 		
 		"resources:herb:mountain_flower" : "file(entities/resources/herb/mountain_flower)",
 		"resources:herb:lavender" : "file(entities/resources/herb/lavender)",
+		"resources:herb:tall_grass" : "file(entities/resources/herb/tall_grass)",
 		
 		"food:berries:fall_berry_serving" : "file(entities/food/berries/fall_berry_serving)",
 		"food:berries:fall_berry_basket" : "file(entities/food/berries/fall_berry_basket)",
@@ -51,6 +52,7 @@
 		"window_box_mountain_flower_recipe" : "file(entities/decoration/window_box_mountain_flower/window_box_mountain_flower.json)",
 		
 		"decoration:window_box:mountain_flower" : "file(entities/decoration/window_box_mountain_flower)",
+		"decoration:potpourri" : "file(entities/decoration/potpourri)",
 		"decoration:cornucopia" : "file(entities/decoration/cornucopia)",
 		"decoration:pumpkin_decoration" : "file(entities/decoration/pumpkin_decoration)",
 		

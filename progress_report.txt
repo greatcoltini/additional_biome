@@ -28,3 +28,4 @@ v0.02:
 - add lavender, lavender herb, lavender crop
 - added natural lavender, mountain flower spawing to original biomes
 - added natural spawning purple wolf flowers
+- added tall grass crop and herb

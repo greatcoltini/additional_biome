@@ -8,6 +8,10 @@
 		 {
 			"crop_type" : "additional_biomes:crops:lavender_crop",
 			"quantity" : 5
+		},
+		{
+			"crop_type" : "additional_biomes:crops:tall_grass_crop",
+			"quantity" : 5
 		}
 		 ]
 	}

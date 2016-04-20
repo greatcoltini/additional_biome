@@ -6,10 +6,11 @@
    "flavor": "i18n(additional_biomes:jobs.cook.recipes.cow_feed_recipe.flavor)",
    "portrait": "/additional_biomes/entities/food/cow_feed/cow_feed/cow_feed.png",
    "workshop": "stonehearth:cook:mill",
+   "level_requirement": 1,
    "ingredients": [
       {
-         "uri": "stonehearth:food:corn:corn_basket",
-         "count": 1
+         "uri": "additional_biomes:resources:herb:tall_grass",
+         "count": 2
       }
    ],
    "produces": [

@@ -1,0 +1,33 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(additional_biomes:jobs.carpenter.recipes.potpourri_recipe.recipe_name)",
+   "description": "i18n(additional_biomes:jobs.carpenter.recipes.potpourri_recipe.description)",
+   "flavor": "i18n(additional_biomes:jobs.carpenter.recipes.potpourri_recipe.flavor)",
+   "portrait": "/additional_biomes/entities/decoration/potpourri/potpourri.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "additional_biomes:resources:herb:mountain_flower",
+         "count": 1
+      },
+	  {
+		"uri": "additional_biomes:resources:herb:lavender",
+		"count": 1
+	  },
+	  {
+		"uri": "stonehearth:resources:herb:frostsnap",
+		"count": 1
+	  }
+   ],
+   "produces": [
+      {
+         "item": "additional_biomes:decoration:potpourri"
+      }
+   ]
+}

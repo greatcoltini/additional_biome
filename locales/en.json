@@ -43,6 +43,12 @@
 					"description": "So colourful and pretty!"
 				}
 			},
+			"potpourri": {
+				"potpourri_ghost": {
+					"display_name": "Potpourri",
+					"description": "A beautiful collection of flowers in a vase."
+				}
+			},
 			"cornucopia": {
 				"cornucopia_ghost": {
 					"display_name": "Cornucopia",
@@ -98,6 +104,29 @@
 					"003": {
 						"name": "Lavender",
 						"description": "All ready to be harvested."
+					}
+				}
+			},
+			"tall_grass_crop": {
+				"display_name": "Tall Grass Crop",
+				"description": "Tall grass used to make feed for cows.",
+				"growth_stage": {
+					"000": {
+						"name": "Freshly Planted Tall Grass",
+						"description": "The farmer still needs to tend to this."
+					},
+					"001": {
+						"name": "Young Tall Grass",
+						"description": "A growing crop of tall grass."
+					},
+					"002": {
+						"name": "Almost Tall Grass",
+						"description": "It's not quite tall grass yet."
+					},
+					"003": {
+						"name": "Tall Grass",
+						"description": "Ready to be harvested and replanted."
+						
 					}
 				}
 			}
@@ -206,6 +235,10 @@
 				"lavender": {
 					"display_name": "Lavender",
 					"description": "A beautiful purple flower used in decoration."
+				},
+				"tall_grass": {
+					"display_name": "Tall Grass",
+					"description": "Tall, long grass that cows find appealing to eat."
 				}
 			}
 		},
@@ -256,6 +289,11 @@
 					"recipe_name": "Mountain Flower Window Box",
 					"description": "A flower box full of mountain flowers.",
 					"flavor": "A colourful array of picked mountain flowers in a box to sit on a windowsill."
+				},
+				"potpourri_recipe": {
+					"recipe_name": "Potpourri",
+					"description": "A collection of various flowers in a vase.",
+					"flavor": "A true work of art."
 				}
 			}
 		},

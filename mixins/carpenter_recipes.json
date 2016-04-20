@@ -4,6 +4,9 @@
 			"recipes" : {
 				"window_box_mountain_flower_recipe" : {
 					"recipe" : "file(/recipes/window_box_mountain_flower_recipe.json)"
+				},
+				"putpourri_recipe": {
+					"recipe": "file(/recipes/potpourri_recipe.json)"
 				}
 			}
 		}

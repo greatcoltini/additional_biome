@@ -1,8 +1,0 @@
-{
-   "skeleton" : {
-      "root": [1.5,2.5,1.57802e-007],
-      "torso": [1.5,2.5,0]
-   },
-   "animation_root" : "file(animations)",
-   "effects_root" : "file(effects)"
-}

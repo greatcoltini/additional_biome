@@ -1,5 +1,0 @@
-{
-	"biomes" : {
-		"mountain": "file(mountain.json)"
-	}
-}

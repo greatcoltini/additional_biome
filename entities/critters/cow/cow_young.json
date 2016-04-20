@@ -85,7 +85,7 @@
          "added_equipment": [
             "stonehearth:pasture_equipment:young_animal_collar"
          ],
-         "food_material": "sheep_feed_edible"
+         "food_material": "cow_feed_edible"
       },
       "stonehearth:observers:calorie_animals": {
          "max": 25,

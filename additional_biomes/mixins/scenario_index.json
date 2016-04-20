@@ -1,7 +1,0 @@
-{
-    "static": {
-        "scenarios": [
-            "file(../terrain/mountain_flower_field)"
-        ]
-   }
-}

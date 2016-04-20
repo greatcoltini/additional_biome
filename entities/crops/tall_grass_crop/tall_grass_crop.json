@@ -1,0 +1,88 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(/entities/resources/herb/tall_grass/tall_grass.qb)"
+            ]
+         },
+         "tall_grass_1": {
+            "models": [
+               "file(tall_grass_1.qb)"
+            ]
+         },
+         "tall_grass_2": {
+            "models": [
+               "file(tall_grass_2.qb)"
+            ]
+         },
+         "tall_grass_3": {
+            "models": [
+               "file(tall_grass_3.qb)"
+            ]
+         },
+         "tall_grass_4": {
+            "models": [
+               "file(tall_grass_4.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.13
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.crops.tall_grass_crop.display_name)",
+         "description": "i18n(additional_biomes:entities.crops.tall_grass_crop.description)",
+         "icon": "file(/entities/resources/herb/tall_grass/tall_grass.png)"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "tall_grass_4": "additional_biomes:resources:herb:tall_grass"
+         },
+         "harvest_threshhold": "tall_grass_4",
+         "plant_overlay_effect": "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      },
+      "stonehearth:growing": {
+         "growth_period": "4h",
+         "growth_stages": [
+            {
+               "model_name": "tall_grass_1",
+               "name": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.000.name)",
+               "description": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "tall_grass_2",
+               "name": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.001.name)",
+               "description": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "tall_grass_3",
+               "name": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.002.name)",
+               "description": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "tall_grass_4",
+               "name": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.003.name)",
+               "description": "i18n(additional_biomes:entities.crops.tall_grass_crop.growth_stage.003.description)"
+            }
+         ]
+      },
+      "additional_biomes:material": {
+         "tags": "tall_grass crop"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0.2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      }
+   }
+}

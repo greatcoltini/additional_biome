@@ -1,5 +1,0 @@
-- tall grass, tall grass crop, tall grass herb
-- potpourri
-- scarecrow
-- golden egg dropped by turkey
-- fix collision models for added stuff (learn how)
