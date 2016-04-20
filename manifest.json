@@ -5,6 +5,8 @@
    },
    "default_locale": "en",
    "aliases" : {
+		"armor:archer_headdress" : "file(entities/armor/archer_headdress)",
+		
 		"trees:fall_oak:small" : "file(entities/trees/fall_oak_tree/small_fall_oak_tree)",
 		"trees:fall_oak:medium" : "file(entities/trees/fall_oak_tree/medium_fall_oak_tree)",
 		"trees:fall_oak:large" : "file(entities/trees/fall_oak_tree/large_fall_oak_tree)",
@@ -21,14 +23,19 @@
 		
 		"crops:mountain_flower_crop" : "file(entities/crops/mountain_flower_crop)",
 		"crops:lavender_crop" : "file(entities/crops/lavender_crop)",
-		"crops:tall_grass" : "file(entities/crops/tall_grass_crop)",
+		"crops:tall_grass_crop" : "file(entities/crops/tall_grass_crop)",
 		
 		"resources:herb:mountain_flower" : "file(entities/resources/herb/mountain_flower)",
 		"resources:herb:lavender" : "file(entities/resources/herb/lavender)",
 		"resources:herb:tall_grass" : "file(entities/resources/herb/tall_grass)",
 		
+		"resources:treasure:golden_egg" : "file(entities/resources/treasure/golden_egg)",
+		
+		"resources:feathers:turkey_feathers" : "file(entities/resources/feathers/turkey_feathers)",
+		
 		"food:berries:fall_berry_serving" : "file(entities/food/berries/fall_berry_serving)",
 		"food:berries:fall_berry_basket" : "file(entities/food/berries/fall_berry_basket)",
+		
 		"food:turkey_pot_pie" : "file(entities/food/turkey_pot_pie/turkey_pot_pie)",
 		"food:turkey_pot_pie_serving" : "file(entities/food/turkey_pot_pie/turkey_pot_pie_serving)",
 		"food:pumpkin_pie" : "file(entities/food/pumpkin_pie/pumpkin_pie)",
@@ -44,7 +51,7 @@
 		"food:roast_turkey" : "file(entities/food/roast_turkey/roast_turkey)",
 		"food:roast_turkey:roast_turkey_serving": "file(entities/food/roast_turkey/roast_turkey_serving)",
 		"food:cheese_wheel" : "file(entities/food/cheese_wheel/cheese_wheel)",
-		"food:cheese_wheel_serving" : "file(entities/food/cheese_wheel/cheese_wheel_serving)",
+		"food:cheese_wheel:cheese_wheel_serving" : "file(entities/food/cheese_wheel/cheese_wheel_serving)",
 		"food:bruschetta" : "file(entities/food/bruschetta/bruschetta)",
 		"food:bruschetta_serving" : "file(entities/food/bruschetta/bruschetta_serving)",
 		"food:milk_bucket": "file(entities/food/milk_bucket)",
@@ -55,6 +62,7 @@
 		"decoration:potpourri" : "file(entities/decoration/potpourri)",
 		"decoration:cornucopia" : "file(entities/decoration/cornucopia)",
 		"decoration:pumpkin_decoration" : "file(entities/decoration/pumpkin_decoration)",
+		"decoration:scarecrow" : "file(entities/decoration/scarecrow)",
 		
 		"turkey": "file(entities/critters/turkey)",
 		"turkey:egg": "file(entities/critters/turkey/egg/turkey_egg.json)",
@@ -71,6 +79,8 @@
 	  "/stonehearth/jobs/carpenter/recipes/recipes.json" : "file(mixins/carpenter_recipes.json)",
 	  
 	  "stonehearth/jobs/cook/recipes/recipes.json" : "file(mixins/cook_recipes.json)",
+	  
+	  "stonehearth/jobs/weaver/recipes/recipes.json" : "file(mixins/weaver_recipes.json)",
 	  
 	  "/stonehearth/services/server/farming/data/initial_crops.json" : "file(mixins/crops.json)",
 	  

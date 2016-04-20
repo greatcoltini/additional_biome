@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(additional_biomes:jobs.carpenter.recipes.scarecrow_recipe.recipe_name)",
+   "description": "i18n(additional_biomes:jobs.carpenter.recipes.scarecrow_recipe.description)",
+   "flavor": "i18n(additional_biomes:jobs.carpenter.recipes.scarecrow_recipe.flavor)",
+   "portrait": "/additional_biomes/entities/decoration/scarecrow/scarecrow.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:cloth_bolt",
+		 "count": 1
+      },
+	  {
+		"uri": "stonehearth:refined:thread",
+		"count": 3
+	  },
+	  {
+		"uri": "stonehearth:food:wheat:wheat_bale",
+		"count": 1
+	  }
+   ],
+   "produces": [
+      {
+         "item": "additional_biomes:decoration:scarecrow"
+      }
+   ]
+}

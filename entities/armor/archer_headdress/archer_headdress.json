@@ -1,0 +1,52 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(stonehearth:entities.armor.archer_headdress.display_name)",
+         "description": "i18n(stonehearth:entities.armor.archer_headdress.description)",
+         "icon": "file(archer_headdress.png)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "leather armor light_armor"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(archer_headdress.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(archer_headdress_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 3,
+         "roles": "archer_job",
+         "required_job_level": 1,
+         "equip_effect": "/stonehearth/data/effects/level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 3
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 150,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

@@ -14,6 +14,12 @@
       }
    },
    "entities": {
+		"armor": {
+			"archer_headdress": {
+				"display_name": "Archer Headdress",
+				"description": "Imbued with magic to protect the wearer."
+			}
+		},
 		"critters": {
 			"turkey": {
 				"display_name": "Turkey",
@@ -59,6 +65,12 @@
 				"pumpkin_decoration_ghost": {
 					"display_name": "Pumpkin Decoration",
 					"description": "A collection of pumpkins to display on your lawn."
+				}
+			},
+			"scarecrow": {
+				"scarecrow_ghost": {
+					"display_name": "Scarecrow",
+					"description": "If only there were crows to scare away..."
 				}
 			}
 		},
@@ -240,6 +252,18 @@
 					"display_name": "Tall Grass",
 					"description": "Tall, long grass that cows find appealing to eat."
 				}
+			},
+			"treasure": {
+				"golden_egg": {
+					"display_name": "Golden Egg",
+					"description": "I bet if we harvested this we would be rich!"
+				}
+			},
+			"feathers": {
+				"turkey_feathers": {
+					"display_name": "Turkey Feathers",
+					"description": "Feathers from a turkey."
+				}
 			}
 		},
 		"trees": {
@@ -348,6 +372,14 @@
 					"recipe_name": "Bruschetta",
 					"description": "Bread fresh from the oven, topped with cheese!",
 					"flavor": " "
+				}
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"archer_headdress_recipe": {
+					"recipe_name": "Archer Headdress",
+					"description": "Decorative headdress, but still provides some defense."
 				}
 			}
 		}

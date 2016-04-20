@@ -29,3 +29,8 @@ v0.02:
 - added natural lavender, mountain flower spawing to original biomes
 - added natural spawning purple wolf flowers
 - added tall grass crop and herb
+- added scarecrow
+- added potpourri
+- added golden egg mined for golden ingot from turkey
+- added turkey feathers
+- added archer headdress

@@ -1,0 +1,11 @@
+{
+	"craftable_recipes" : {
+		"clothing_armor" : {
+			"recipes" : {
+				"archer_headdress_recipe" : {
+					"recipe" : "file(/recipes/archer_headdress_recipe.json)"
+				}
+			}
+		}
+	}
+}

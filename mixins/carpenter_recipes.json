@@ -7,6 +7,9 @@
 				},
 				"putpourri_recipe": {
 					"recipe": "file(/recipes/potpourri_recipe.json)"
+				},
+				"scarecrow_recipe": {
+					"recipe": "file(/recipes/scarecrow_recipe.json)"
 				}
 			}
 		}

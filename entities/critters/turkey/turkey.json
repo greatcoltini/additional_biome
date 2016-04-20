@@ -30,8 +30,8 @@
                         "weight": 1
                      },
                      "pelt": {
-                        "uri": "stonehearth:resources:feathers:poyo_feathers",
-                        "weight": 1
+                        "uri": "additional_biomes:resources:feathers:turkey_feathers",
+                        "weight": 10000
                      }
                   }
                }
@@ -40,7 +40,7 @@
       },
       "stonehearth:renewable_resource_node": {
          "category": "herding",
-         "resource": "stonehearth:food:egg",
+         "resource": "additional_biomes:resources:treasure:golden_egg",
          "renewal_time": "48h",
          "resource_spawn_effect": "/stonehearth/data/effects/fursplosion_effect/growing_wool_effect.json",
          "start_unharvestable": true,
