@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 10,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.cook_spoon_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.cook_spoon_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.cook_spoon_recipe.flavor)",
+   "portrait": "/stonehearth/jobs/cook/cook_spoon/cook_spoon.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:cook:talisman"
+      }
+   ]
+}

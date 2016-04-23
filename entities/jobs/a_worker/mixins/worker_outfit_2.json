@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(stonehearth:jobs.worker.worker_outfit_2.display_name)",
+         "description": "i18n(stonehearth:jobs.worker.worker_outfit_2.description)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "roles": "worker_job",
+         "ilevel": 2,
+         "injected_buffs": [
+            "stonehearth:buffs:devoted"
+         ],
+         "equip_effect": "/stonehearth/data/effects/level_up"
+      }
+   }
+}

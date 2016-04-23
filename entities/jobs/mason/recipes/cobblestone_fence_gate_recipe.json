@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.cobblestone_fence_gate_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.cobblestone_fence_gate_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.cobblestone_fence_gate_recipe.flavor)",
+   "portrait": "/stonehearth/entities/construction/cobblestone_fence_gate/cobblestone_fence_gate.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:construction:cobblestone_fence_gate"
+      }
+   ]
+}

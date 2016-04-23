@@ -1,0 +1,20 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(stonehearth:jobs.worker.worker_outfit_2.worker_outfit_2_iconic.description)",
+         "display_name": "i18n(stonehearth:jobs.worker.worker_outfit_2.worker_outfit_2_iconic.display_name)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   }
+}

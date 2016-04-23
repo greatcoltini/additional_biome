@@ -19,6 +19,8 @@
 		"a_female_3" : "file(entities/humans/female/a_female_3.json)",
 		"a_female_npc_1" : "file(entities/humans/female/a_female_npc_1.json)",
 		
+		"jobs:worker" : "file(entities/jobs/a_worker/a_worker_description.json)",
+		
 		"trees:fall_oak:small" : "file(entities/trees/fall_oak_tree/small_fall_oak_tree)",
 		"trees:fall_oak:medium" : "file(entities/trees/fall_oak_tree/medium_fall_oak_tree)",
 		"trees:fall_oak:large" : "file(entities/trees/fall_oak_tree/large_fall_oak_tree)",

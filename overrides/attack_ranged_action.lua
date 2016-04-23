@@ -180,11 +180,7 @@ function AttackRanged:_shoot(attacker, target, weapon_data)
 end
 
 function AttackRanged:_create_projectile(attacker, target, projectile_speed, projectile_type)
-   local projectile
-   if projectile_type == nil then 
-		projectile = radiant.entities.create_entity('stonehearth:weapons:arrow') 
-        else projectile = radiant.entities.create_entity(projectile_type) 
-	end
+   local projectile = radiant.entities.create_entity(projectile_type)
    local projectile_component = projectile:add_component('stonehearth:projectile')
    projectile_component:set_speed(projectile_speed)
    projectile_component:set_target_offset(self._target_offset)

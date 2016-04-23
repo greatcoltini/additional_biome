@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.mason_workbench_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.mason_workbench_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.mason_workbench_recipe.flavor)",
+   "portrait": "/stonehearth/jobs/mason/mason_workbench/mason_workbench.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:mason:workbench"
+      }
+   ]
+}

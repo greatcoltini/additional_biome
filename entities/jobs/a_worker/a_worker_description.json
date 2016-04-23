@@ -1,0 +1,32 @@
+{
+   "type": "job",
+   "alias": "stonehearth:jobs:worker",
+   "display_name": "i18n(stonehearth:jobs.worker.worker_description.display_name)",
+   "controller": "stonehearth:class:worker",
+   "description": "i18n(stonehearth:jobs.worker.worker_description.description)",
+   "requirements": "i18n(stonehearth:jobs.worker.worker_description.requirements)",
+   "default_stance": "passive",
+   "abilities": "file(worker_abilities)",
+   "equipment": {
+      "torso": "file(a_worker_outfit)",
+      "mainhand": [
+         "stonehearth:mining_pick",
+         "stonehearth:worker_hammer"
+      ]
+   },
+   "roles": "worker_job",
+   "icon": "file(images/icon.png)",
+   "task_groups": [
+      "stonehearth:task_group:common_tasks",
+      "stonehearth:task_group:restock",
+      "stonehearth:task_group:build",
+      "stonehearth:task_group:placement",
+      "stonehearth:task_group:mining",
+      "stonehearth:task_group:harvest"
+   ],
+   "level_data": {
+      "0": {
+         "title": "i18n(stonehearth:jobs.worker.worker_description.level_0_data.title)"
+      }
+   }
+}

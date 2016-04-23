@@ -1,0 +1,23 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:worker_outfit",
+   "components": {
+      "unit_info": {
+         "icon": "file(worker_outfit.png)"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(a_worker_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(a_worker_outfit_female.qb)"
+            ]
+         }
+      }
+   }
+}

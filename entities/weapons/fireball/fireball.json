@@ -15,6 +15,11 @@
       "mob": {
          "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
       },
-      "stonehearth:projectile": {}
+      "stonehearth:projectile": {},
+	  "entity_data": {
+		"stonehearth:combat:weapon_data": {
+			"projectile_speed" : "40"
+		}
+	  }
    }
 }

@@ -9,6 +9,10 @@
    "story_board_image": "/additional_biomes/data/kingdoms/images/acelihar_story_board_image.png",
    "starting_talisman" : "stonehearth:mason:talisman",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
+   "jobs" : {
+		"stonehearth:jobs:worker" : "additional_biomes:jobs:worker"
+		
+	},
    "roles" : {
       "default" : {
          "male" : {

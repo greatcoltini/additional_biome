@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 6,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.potter_cutter_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.potter_cutter_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.potter_cutter_recipe.flavor)",
+   "portrait": "/stonehearth/jobs/potter/potter_cutter/potter_cutter.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "material": "clay resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:potter:talisman"
+      }
+   ]
+}

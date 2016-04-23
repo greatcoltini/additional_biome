@@ -1,0 +1,18 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(stonehearth:jobs.worker.worker_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.worker.worker_outfit.description)"
+      },
+      "render_info": {},
+      "stonehearth:material": {
+         "tags": "cloth"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   }
+}

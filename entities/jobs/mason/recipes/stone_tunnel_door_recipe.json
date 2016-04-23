@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 8,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.stone_tunnel_door_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.stone_tunnel_door_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/construction/stone_tunnel_door/stone_tunnel_door.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:portals:stone_tunnel_door"
+      }
+   ]
+}
