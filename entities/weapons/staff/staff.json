@@ -37,20 +37,20 @@
          "base_damage": 4,
          "base_ranged_damage": 50,
 		 "range": 20,
-		 "projectile_speed": 10,
+		 "projectile_speed": 30,
 		 "projectile_type" : "additional_biomes:weapons:fireball"
       },
       "stonehearth:combat:ranged_attacks": [
          {
             "name": "combat_1h_forehand",
             "effect": "combat_1h_forehand",
-            "active_frame": 41,
+            "active_frame": 22,
             "cooldown": 0,
-            "priority": 0
+            "priority": 100
          }
       ],
       "stonehearth:combat:idle:ready": {
-         "name": "archer_1h_idle"
+         "name": "combat_1h_idle"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 0,
