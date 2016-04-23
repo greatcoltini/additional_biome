@@ -75,7 +75,8 @@
                   "type": "one_of",
                   "items": [
                      "file(a_hair_1.qb)",
-                     "file(a_hair_2.qb)"
+                     "file(a_hair_2.qb)",
+					 "file(a_hair_3.qb)"
                   ]
                },
                "file(body.qb)"

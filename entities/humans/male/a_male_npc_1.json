@@ -84,7 +84,9 @@
          },
          "old" : {
             "models" : [ 
-                "file(a_hair_1.qb)"
+                "file(a_hair_1.qb)",
+				"file(a_hair_2.qb)",
+				"file(a_hair_3.qb)"
             ],
             "variants" : [
                ["nothing","eyebrows"],
@@ -94,7 +96,9 @@
 
          "young" : {
             "models" : [ 
-                "file(a_hair_1.qb)"
+                "file(a_hair_1.qb)",
+				"file(a_hair_2.qb)",
+				"file(a_hair_3.qb)"
             ],
             "variants" : [
                ["nothing", "eyebrows"],
