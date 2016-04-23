@@ -27,7 +27,11 @@
                   "items": [
                      "file(a_hair_1.qb)",
                      "file(a_hair_2.qb)",
-					 "file(a_hair_3.qb)"
+					 "file(a_hair_3.qb)",
+					 "file(a_hair_4.qb)",
+					 "file(a_hair_5.qb)",
+					 "file(a_hair_6.qb)",
+					 "file(a_hair_7.qb)"
                   ]
                },
                "file(body.qb)"
