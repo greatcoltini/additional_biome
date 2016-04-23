@@ -1,0 +1,20 @@
+{
+   "mixins": "stonehearth:weapons:bow",
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 20,
+         "range": 200,
+         "projectile_speed": 50
+      },
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "archer_1h_shoot",
+            "effect": "archer_1h_shoot",
+            "active_frame": 21,
+            "target_armor_multiplier": 0.5,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}

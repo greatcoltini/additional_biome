@@ -11,7 +11,15 @@
 		"003": "Klipyak Hills"
 			}
          } 
-      }
+      },
+	  "population" : {
+		"acelihar": {
+			"display_name" : "Acelihar Nobles",
+			"quote" : "Mountainous Nobles",
+			"description" : "People who originate from the mountains, they have earned their nobility through their prime positioning around expensive ores.",
+			"post_selection_description" : " "
+		}
+	  }
    },
    "entities": {
 		"armor": {
@@ -302,8 +310,22 @@
 					"display_name": "Ancient Fall Oak Tree",
 					"description": "A fall-coloured oak tree past it's prime."
 					}
+			}
+		},
+		"weapons": {
+			"staff": {
+				"display_name": "Staff",
+				"description": "Not an effective melee weapon, but helps the user channel magic.",
+				"staff_iconic": {
+					"display_name": "Staff",
+					"description": "Not an effective melee weapon, but helps the user channel magic."
+				},
+				"staff_talisman": {
+					"display_name": "Staff",
+					"description": "Given to the right person, this will help them cast spells."
 				}
 			}
+		}
 		
    },
    "jobs": {
@@ -380,6 +402,23 @@
 				"archer_headdress_recipe": {
 					"recipe_name": "Archer Headdress",
 					"description": "Decorative headdress, but still provides some defense."
+				}
+			}
+		}
+	},
+	"jobs": {
+		"mage": {
+			"mage_description": {
+				"display_name": "Mage",
+				"description": " A ranged combat unit that fires spells at the enemy.",
+				"requirements": "A level 3 footman and a Staff, crafted by the carpenter."
+			},
+			"mage_outfit" : {
+				"display_name": "Apprentice Robes",
+				"description": "Robes adorned by entry-level mages, provides minimal protection.",
+				"mage_hood" : {
+					"display_name": "Apprentice Hood",
+					"description": "A hood matching the robes worn by apprentice mages."
 				}
 			}
 		}

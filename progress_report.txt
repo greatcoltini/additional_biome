@@ -35,3 +35,6 @@ v0.02:
 - added turkey feathers
 - added archer headdress
 - merged temperate_mixins and temperate_noise_mixins
+- added mage class
+- added staff, mage hood, mage outfit
+- implemented projectile testing for ranged combat such that projectiles fired are linked to weapon used

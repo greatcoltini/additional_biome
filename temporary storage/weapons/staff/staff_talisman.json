@@ -1,0 +1,43 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities.weapons.staff.staff_talisman.display_name)",
+         "description": "i18n(additional_biomes:entities.weapons.staff.staff_talisman.description)",
+         "icon": "file(staff.png)"
+      },
+      "item": {
+         "stacks": 1,
+         "category": "weapons"
+      },
+      "stonehearth:material": {
+         "tags": "wood ranged_weapon"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(staff.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "additional_biomes:jobs:mage"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

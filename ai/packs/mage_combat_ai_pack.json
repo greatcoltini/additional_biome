@@ -1,0 +1,13 @@
+{
+   "type": "ai_pack",
+   "actions": [
+      "additional_biomes:actions:combat:attack:mage_out_of_range",
+      "additional_biomes:actions:combat:attack:mage_in_range",
+      "additional_biomes:actions:combat:attack:mage",
+      "additional_biomes:actions:combat:mage:get_in_range"
+   ],
+   "observers": [],
+   "ai_packs": [
+      "stonehearth:ai_pack:combat"
+   ]
+}

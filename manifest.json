@@ -5,6 +5,8 @@
    },
    "default_locale": "en",
    "aliases" : {
+		"ai_pack:mage_attack" : "file(ai/packs/mage_combat_ai_pack.json)",
+		
 		"armor:archer_headdress" : "file(entities/armor/archer_headdress)",
 		
 		"trees:fall_oak:small" : "file(entities/trees/fall_oak_tree/small_fall_oak_tree)",
@@ -56,7 +58,16 @@
 		"food:bruschetta_serving" : "file(entities/food/bruschetta/bruschetta_serving)",
 		"food:milk_bucket": "file(entities/food/milk_bucket)",
 		
-		"jobs:mage": "file(jobs/mage/mage_description.json)",
+		"kingdoms:acelihar" : "file(services/server/population/data/acelihar_population.json)",
+		
+		"actions:combat:attack:mage": "file(ai/actions/combat/attack_mage_action.lua)",
+		"actions:combat:attack:mage_in_range": "file(ai/actions/combat/attack_mage_in_range_action.lua)",
+		"actions:combat:attack:mage_out_of_range": "file(ai/actions/combat/attack_mage_out_of_range_action.lua)",
+		"actions:combat:mage:get_in_range" : "file(ai/actions/combat/mage_get_in_range.lua)",
+		"jobs:mage": "file(entities/jobs/mage/mage_description.json)",
+		"weapons:staff": "file(entities/weapons/staff)",
+		"weapons:fireball" : "file(entities/weapons/fireball)",
+		"mage:abilities:default_shot" : "file(entities/jobs/mage/mage_abilities/archer_default_shot.json)",
 		
 		"window_box_mountain_flower_recipe" : "file(entities/decoration/window_box_mountain_flower/window_box_mountain_flower.json)",
 		
@@ -73,7 +84,9 @@
 		
 		"cow": "file(entities/critters/cow/cow.json)",
 		"cow:young": "file(entities/critters/cow/cow_young.json)",
-		"sounds:cow_moo" : "file(data/sounds/effects/ab_cow_moo.wav)"
+		"sounds:cow_moo" : "file(data/sounds/effects/ab_cow_moo.wav)",
+		
+		"weapons:kobold_arrow" : "file(entities/weapons/kobold_arrow)"
    },
    "mixintos" :  {
       "stonehearth:biome:index": "file(data/biome/index.json)",
@@ -88,6 +101,23 @@
 	  
 	  "/stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json" : "file(mixins/shepherd_pasture.json)",
 	  
-	  "/stonehearth/data/biome/temperate.json" : "file(mixins/temperate_mixin.json)"
+	  "/stonehearth/data/biome/temperate.json" : "file(mixins/temperate_mixin.json)",
+	  
+	  "/stonehearth/jobs/index.json" : "file(mixins/jobs_index.json)",
+	  
+	  "/stonehearth/entities/weapons/bow/bow.json" : "file(mixins/bow.json)",
+	  "/stonehearth/entities/weapons/recurve_bow/recurve_bow.json" : "file(mixins/recurve_bow.json)",
+	  "/stonehearth/entities/weapons/kobold_bow/kobold_bow.json" : "file(mixins/kobold_bow.json)",
+	  "stonehearth/entities/weapons/kobold_bow/kobold_recurve_bow.json" : "file(mixins/kobold_recurve_bow.json)",
+	  "stonehearth/entities/weapons/kobold_bow/kobold_generals_bow.json" : "file(mixins/kobold_generals_bow.json)",
+	  "stonehearth/entities/weapons/kobold_bow/kobold_master_bow.json" : "file(mixins/kobold_master_bow.json)",
+	  
+	  "stonehearth:playable_kingdom_index" : "file(mixins/playable_kingdom_index.json)"
+	},
+	"overrides" : {
+		"stonehearth/ai/actions/combat/attack_ranged_action.lua" : "file(overrides/attack_ranged_action.lua)"
+	},
+	"controllers" : {
+		"class:mage" : "file(entities/jobs/mage/mage.lua)"
 	}
 }

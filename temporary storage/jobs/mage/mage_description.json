@@ -1,0 +1,133 @@
+{
+   "type": "job",
+   "job_id": "mage",
+   "alias": "additional_biomes:jobs:mage",
+   "display_name": "i18n(additional_biomes:jobs.mage.mage_description.display_name)",
+   "controller": "additional_biomes:class:mage",
+   "description": "i18n(additional_biomes:jobs.mage.mage_description.description)",
+   "requirements": "i18n(additional_biomes:jobs.mage.mage_description.requirements)",
+   "talisman_uri": "additional_biomes:mage:talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(mage_abilities)",
+   "equipment": {
+      "helmet": "file(mage_outfit/mage_hood)",
+      "torso": "file(mage_outfit)",
+      "mainhand": "additional_biomes:weapons:staff"
+   },
+   "roles": "mage_job leather_wearer cloth_wearer mage_combat combat",
+   "promotion_activity_name": "promote_mage",
+   "task_groups": [
+      "stonehearth:task_group:common_tasks",
+      "stonehearth:task_group:restock",
+      "stonehearth:task_group:patrolling"
+   ],
+   "icon": "file(images/icon.png)",
+   "parent_job": "stonehearth:jobs:footman",
+   "parent_level_requirement": 3,
+   "max_level": 6,
+   "level_data": {
+      "0": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "i18n(additional_biomes:jobs.mage.mage_description.level_0_data.perk_000_name)",
+               "id": "mage_default_shot",
+               "icon": "file(images/default_shot.png)",
+               "equipment": "additional_biomes:mage:abilities:default_shot",
+               "action_type": "additional_biomes:combat:mage_attacks",
+               "description": "i18n(additional_biomes:jobs.mage.mage_description.level_0_data.perk_000_description)",
+               "level": 0,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(additional_biomes:jobs.mage.mage_description.level_1_data.perk_000_name)",
+               "id": "mage_damage_up",
+               "icon": "file(images/mage_perk_damage_up.png)",
+               "buff_name": "additional_biomes:buffs:mage:damage_up_1",
+               "description": "i18n(additional_biomes:jobs.mage.mage_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(additional_biomes:jobs.mage.mage_description.level_2_data.perk_000_name)",
+               "id": "mage_damage_up",
+               "icon": "file(images/mage_perk_armor_piercer.png)",
+               "buff_name": "additional_biomes:buffs:mage:armor_penetration",
+               "description": "i18n(additional_biomes:jobs.mage.mage_description.level_2_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(additional_biomes:jobs.mage.mage_description.level_3_data.perk_000_name)",
+               "id": "mage_range_increase_1",
+               "icon": "file(images/mage_perk_range_up_1.png)",
+               "buff_name": "additional_biomes:buffs:mage:range_up_1",
+               "description": "i18n(additional_biomes:jobs.mage.mage_description.level_3_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(additional_biomes:jobs.mage.mage_description.level_4_data.perk_000_name)",
+               "id": "mage_speed_shot",
+               "icon": "file(images/mage_perk_atk_speed_up.png)",
+               "last_equipment": "additional_biomes:mage:abilities:default_shot",
+               "action_type": "additional_biomes:combat:mage_attacks",
+               "equipment": "additional_biomes:mage:abilities:speed_shot",
+               "description": "i18n(additional_biomes:jobs.mage.mage_description.level_4_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(additional_biomes:jobs.mage.mage_description.level_5_data.perk_000_name)",
+               "id": "mage_range_increase_2",
+               "icon": "file(images/mage_perk_range_up_2.png)",
+               "last_buff": "additional_biomes:buffs:mage:range_up_1",
+               "buff_name": "additional_biomes:buffs:mage:range_up_2",
+               "description": "i18n(additional_biomes:jobs.mage.mage_description.level_5_data.perk_000_description)",
+               "level": 5,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "i18n(additional_biomes:jobs.mage.mage_description.level_6_data.perk_000_name)",
+               "id": "mage_double_shot",
+               "icon": "file(images/mage_perk_double_shot.png)",
+               "equipment": "additional_biomes:mage:abilities:double_shot",
+               "action_type": "additional_biomes:combat:mage_attacks",
+               "description": "i18n(additional_biomes:jobs.mage.mage_description.level_6_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      }
+   }
+}

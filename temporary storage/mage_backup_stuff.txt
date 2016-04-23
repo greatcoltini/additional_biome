@@ -1,0 +1,31 @@
+LOCATIONS OF ORIGINAL MAGE FILES:
+MAGE ACTIONS:
+attack_mage_action = /ai/actions/combat/
+attack_mage_in_range = ""
+attack_mage_out_of_range_action = ""
+mage_get_in_range_action = ""
+PACK:
+mage_combat_ai_pack = ai/packs/
+MAGE STUFF:
+mage folder = /entities/jobs/mage/
+mage staff = /entities/weapons/staff/
+mage fireball = /entities/weapons/fireball/
+mage index = /mixins/
+-------------------------
+CODING IN MANIFEST FOR MAGE:
+aliases:
+"actions:combat:attack:mage" : "file(ai/actions/combat/attack_mage_action.lua)",
+"actions:combat:attack:mage_in_range" : "file(ai/actions/combat/attack_mage_in_range_action.lua)",
+"actions:combat:attack:mage_out_of_range" : "file(ai/actions/combat/attack_mage_out_of_range_action.lua)",
+"actions:combat:mage:get_in_range" : "file(ai/actions/combat/mage_get_in_range)",
+"jobs:mage" : "file(entities/jobs/mage/mage_description.json)",
+"weapons:staff" : "file(entities/weapons/staff)",
+"ai:pack:mage_combat" : "file(ai/packs/mage_combat_ai_pack)"
+
+mixintos:
+"stonehearth/jobs/index.json" : "file(mixins/jobs_index.json)"
+
+
+"controllers" : {
+		"class:mage" : "file(entities/jobs/mage/mage.lua)"
+	}

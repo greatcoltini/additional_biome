@@ -1,3 +1,4 @@
 - fix collision models for added stuff (learn how)
 - make scarecrow bigger
 - make archer headdress a. increase range or b. increase damage
+- add mage

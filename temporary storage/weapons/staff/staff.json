@@ -1,0 +1,62 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(additional_biomes:entities:weapons.staff.display_name)",
+         "description": "i18n(additional_biomes:entities:weapons.staff.description)",
+         "icon": "file(staff.png)"
+      },
+      "item": {
+         "category": "weapons"
+      },
+      "stonehearth:material": {
+         "tags": "wood ranged_weapon"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(staff_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(staff_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 4,
+         "base_ranged_damage": 50,
+		 "range": 20,
+		 "projectile_speed": 10
+      },
+      "additional_biomes:combat:mage_attacks": [
+         {
+            "name": "mage_1h_shoot",
+            "effect": "mage_1h_shoot",
+            "active_frame": 41,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:combat:idle:ready": {
+         "name": "archer_1h_idle"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      }
+   }
+}

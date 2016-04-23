@@ -1,0 +1,7 @@
+{
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+		 "projectile_type": "stonehearth:weapons:arrow"
+      }
+   }
+}
