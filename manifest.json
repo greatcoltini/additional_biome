@@ -9,6 +9,16 @@
 		
 		"armor:archer_headdress" : "file(entities/armor/archer_headdress)",
 		
+		"a_male_1" : "file(entities/humans/male/a_male_1.json)",
+		"a_male_2" : "file(entities/humans/male/a_male_2.json)",
+		"a_male_3" : "file(entities/humans/male/a_male_3.json)",
+		"a_male_npc_1" : "file(entities/humans/male/a_male_npc_1.json)",
+		
+		"a_female_1" : "file(entities/humans/female/a_female_1.json)",
+		"a_female_2" : "file(entities/humans/female/a_female_2.json)",
+		"a_female_3" : "file(entities/humans/female/a_female_3.json)",
+		"a_female_npc_1" : "file(entities/humans/female/a_female_npc_1.json)",
+		
 		"trees:fall_oak:small" : "file(entities/trees/fall_oak_tree/small_fall_oak_tree)",
 		"trees:fall_oak:medium" : "file(entities/trees/fall_oak_tree/medium_fall_oak_tree)",
 		"trees:fall_oak:large" : "file(entities/trees/fall_oak_tree/large_fall_oak_tree)",

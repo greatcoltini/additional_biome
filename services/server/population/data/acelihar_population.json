@@ -13,10 +13,9 @@
       "default" : {
          "male" : {
             "uri" :          [
-               "stonehearth:male_1",
-               "stonehearth:male_1",
-               "stonehearth:male_2",
-               "stonehearth:male_3"
+               "additional_biomes:a_male_1",
+               "additional_biomes:a_male_2",
+               "additional_biomes:a_male_3"
             ],
             "given_names" : [
                "Alton",
@@ -87,11 +86,9 @@
          },
          "female" : {
             "uri" : [
-               "stonehearth:female_1",
-               "stonehearth:female_1",
-               "stonehearth:female_2",
-               "stonehearth:female_3"
-
+               "additional_biomes:a_female_1",
+               "additional_biomes:a_female_2",
+               "additional_biomes:a_female_3"
             ],
             "given_names" : [
                "Sanini",
